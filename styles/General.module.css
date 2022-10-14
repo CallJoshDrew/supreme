@@ -1,0 +1,36 @@
+
+.Heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.Heading:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid;
+  margin: auto;
+  color: rgb(255,211,51);
+}
+.Heading:before {
+  margin-right: 20px
+}
+.Heading:after {
+  margin-left: 20px
+}
+
+
+.buttonLink:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+.buttonLink:visited {
+  color: black;
+}
+
+/* mouse over link */
+.buttonLink:hover {
+  color: white;
+}
+
