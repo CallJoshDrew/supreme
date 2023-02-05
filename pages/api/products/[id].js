@@ -1,4 +1,4 @@
-import {products} from "../../../dataDetails"
+import {products} from "../../../src/dataDetails"
 
 export default function handler(req, res) {
   const {id} = req.query;

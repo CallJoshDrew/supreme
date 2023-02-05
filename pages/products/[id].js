@@ -1,4 +1,4 @@
-import { products } from "../../dataDetails";
+import { products } from '../../src/dataDetails'
 import ArrowCircleLeftIcon from "@mui/icons-material/ArrowCircleLeft";
 import Image from "next/image";
 
