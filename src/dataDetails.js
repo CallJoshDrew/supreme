@@ -13,11 +13,11 @@ export const products = [
     ],
     technical: [
       {
-        flow: "Max 270m³/hr",
-        head: "Max 102m",
-        temp: "80°C ~ 120°C",
-        sizes: "9 Pump Sizes",
-        capacity: "Solid Size 50mm / 30% Solid Content",
+        Flow: "Max 270m³/hr",
+        Head: "Max 102m",
+        Temp: "80°C ~ 120°C",
+        Sizes: "9 Pump Sizes",
+        Capacity: "Solid Size 50mm / 30% Solid Content",
       },
     ],
     applications: [
