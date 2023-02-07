@@ -17,8 +17,8 @@
       },
       {
         "id": 3,
-        "name": "SKLW SERIES",
-        "alt": "SKLW SERIES",
+        "name": "SKLB SERIES",
+        "alt": "SKLB SERIES",
         "image": "../skseries/Sklwseries.png"
       },
       {
@@ -35,7 +35,7 @@
       },
       {
         "id": 6,
-        "name": "SK 168",
+        "name": "SK 168 & 188D",
         "alt": "CHEMICAL DOSING PUMP SK 168/188D",
         "image": "../skseries/ChemicalDosingPumpSK.png"
       },
