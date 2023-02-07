@@ -61,9 +61,10 @@ export default function Details() {
                   border: 1,
                   borderRadius: "10px",
                   borderColor: "rgb(255,211,51)",
-                  padding: "30px 90px",
+                  padding:"20px 50px",
+                  minWidth:'300px',
                 }}>
-                <Image src={product.image} alt={product.name} width={0} height={0} layout="responsive" />
+                <Image src={product.image} alt={product.name} height={0} width={0} layout='responsive' objectFit='contain'/>
               </Box>
               <Typography variant="h6" align="center" sx={{ padding: { xs: "15px", sm: "20px" } }}>
                 {product.name}
