@@ -23,7 +23,7 @@ export default function FiveUsp() {
           marginTop: "30px",
           // backgroundColor: "rgb(255,211,51)",
           borderRadius: "15px",
-          padding: "30px",
+          // padding: "30px",
         }}
       >
         <Box >
@@ -51,7 +51,7 @@ export default function FiveUsp() {
               <CallIcon sx={{ fontSize: "2.5rem", color: "rgb(255,211,51)" }} />
             </Box>
             <Box sx={{ padding: "10px" }}>
-              <Typography variant="h5" component="div">
+              <Typography variant="h6" component="div">
                 Call Support
               </Typography>
               <Typography variant="body2">
@@ -87,7 +87,7 @@ export default function FiveUsp() {
               />
             </Box>
             <Box sx={{ padding: "10px" }}>
-              <Typography variant="h5" component="div">
+              <Typography variant="h6" component="div">
                 Safety First
               </Typography>
               <Typography variant="body2">

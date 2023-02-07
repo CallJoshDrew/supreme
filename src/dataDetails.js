@@ -13,7 +13,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 270m³/hr",
+        "Flow (Q)": "Max 270m³/hr",
         "Head (H)": "Max 102m",
         "Working Temperature": "80°C ~ 120°C",
         Sizes: "9 Pump Sizes",
@@ -52,7 +52,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 210m³/hr",
+        "Flow (Q)": "Max 210m³/hr",
         "Head (H)": "Max 90m",
         "Working Temperature": "80°C ~ 120°C",
         Sizes: "3 Pump Sizes",
@@ -84,7 +84,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 110m³/hr",
+        "Flow (Q)": "Max 110m³/hr",
         "Head (H)": "Max 60m",
         "Working Temperature": "80°C ~ 120°C",
         Bearing: "Heavy duty pedestal / Big bearing",
@@ -117,7 +117,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 480m³/hr @2900rpm",
+        "Flow (Q)": "Max 480m³/hr @2900rpm",
         "Head (H)": "Max 100m @2900rpm/ Max45 @1450rpm",
         "Working Temperature": "95°C",
         Connection: "Flange(PN16)",
@@ -150,7 +150,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "4 - 10m³/hr",
+        "Flow (Q)": "4 - 10m³/hr",
         "Head (H)": "25m",
         "Working Temperature": "20°C ~ 120°C",
         "Inlet/Outlet": "40mm/40mm",
@@ -219,7 +219,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
+        "Flow (Q)": "Max 400m³/hr",
         "Head (H)": "Max 100m",
         "Working Temperature": "80°C ~ 120°C",
         Sizes: "9 Pump Sizes",
@@ -255,7 +255,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 250m³/hr",
+        "Flow (Q)": "Max 250m³/hr",
         "Head (H)": "Max 22m",
         "Solid Size": "Max 30mm",
         "Impeller Type": "Semi-Open",
@@ -323,7 +323,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "5m³/hr or 1000L/hr",
+        "Flow (Q)": "5m³/hr or 1000L/hr",
         "Priming Head": "10m",
         "Lift Head": "20m",
         "Speed": "1450 rpm",
@@ -353,7 +353,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Low Viscosity: 1250 Ltr, Medium Viscosity: 400 Ltr",
+        "Flow (Q)": "Low Viscosity: 1250 Ltr, Medium Viscosity: 400 Ltr",
         "Input Power": "0.37 kw/0.5 hp 415V",
         "Resolutions": "295 rpm",
         "Shaft Diameters": "16mm",
@@ -377,34 +377,39 @@ export const products = [
     image: "/skeroseries/VCSeries.png",
     description: "LIQUID RING VACUUM PUMP",
     features: [
-      "Realiability",
-      "Interchangeability",
-      "Minimizing Inventory Requirements",
-      "High Efficiency",
-      "Longer Life Span",
+      "Efficient Single Stage Design",
+      "Low Maintenance Required",
+      "Low Noise & Vibration Levels",
+      "Entrained Liquid Handling",
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
-        "Head (H)": "Max 100m",
-        "Working Temperature": "80°C ~ 120°C",
-        Sizes: "9 Pump Sizes",
-        "Solid Handling Capacity": "Solid Size 50mm / 30% Solid Content",
+        "Flow (Q)": "180 ~ 600m³/hr",
+        "Head (H)": 'Max 27"hg',
+        "Working Temperature": "Service Liquid(80°C ~ 120°C), Gas(Max 100°C)",
+        "Sealing": "Mechanical Seal",
+        "Viscosity": "Max 90 mm²/s",
+        "Flow Resistance of Heat Exchanger": "Max 0.2 bar",
       },
     ],
     applications: [
-      "Refinery",
-      "Palm Oil Mill",
-      "Slurry Handling",
-      "Corrosive & Abrasive Pulp",
-      "Chemical Plant",
+      "Drying",
+      "Distillation",
+      "Evaporation Crystallization",
+      "Vapor Recovery",
+      "Sterilization",
+      "Filtration",
+      "Vacuum Conveyance",
+      "Priming",
+      "Central Vacuum Systems",
     ],
     model: [
-      "SK 2.5 / 1.5",
-      "SKL 2.5 / 1.5",
-      "SK 3 / 2",
-      "SKL 3 / 2",
-      "SK 4 / 3",
+      "VC 40-160",
+      "VC 50-120",
+      "VC 50-160",
+      "VC 50-200",
+      "VC 65-200",
+      "VC 65-266",
     ],
   },
   {
@@ -413,34 +418,35 @@ export const products = [
     image: "/skeroseries/BFSeries.png",
     description: "MULTI STAGE BOILER FEED WATER PUMP",
     features: [
-      "Realiability",
-      "Interchangeability",
-      "Minimizing Inventory Requirements",
       "High Efficiency",
-      "Longer Life Span",
+      "Low Energy Consumption",
+      "Longer Life",
+      "Advanced Modular Design",
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
-        "Head (H)": "Max 100m",
-        "Working Temperature": "80°C ~ 120°C",
-        Sizes: "9 Pump Sizes",
-        "Solid Handling Capacity": "Solid Size 50mm / 30% Solid Content",
+        "Flow (Q)": "Max 110m³/hr",
+        "Head (H)": "Max 395m",
+        "Working Temperature": "Max 194°C",
+        "Shaft Sealing": "Gland  Packing or Mechanical Seal",
+        "Sense of Rotation": "Clockwise, when Viewed from Discharge Side",
       },
     ],
     applications: [
-      "Refinery",
-      "Palm Oil Mill",
-      "Slurry Handling",
-      "Corrosive & Abrasive Pulp",
-      "Chemical Plant",
+      "Boiler Feed",
+      "Pressure Boosting",
+      "High Pressure Cleaning",
+      "Condensate Systems",
+      "Chemical & Process",
+      "Irrigation of Plant",
+      "Heating Plant",
+      "Reverse Osmosis",
+      "Water Supply in High-rise Building",
     ],
     model: [
-      "SK 2.5 / 1.5",
-      "SKL 2.5 / 1.5",
-      "SK 3 / 2",
-      "SKL 3 / 2",
-      "SK 4 / 3",
+      "BF 40-",
+      "BF 50-",
+      "BF 65-",
     ],
   },
   {
@@ -449,34 +455,35 @@ export const products = [
     image: "/skeroseries/BFSeries.png",
     description: "SIDE CHANNEL OIL TRANSFER PUMP",
     features: [
-      "Realiability",
-      "Interchangeability",
-      "Minimizing Inventory Requirements",
-      "High Efficiency",
-      "Longer Life Span",
+      "Self-priming",
+      "Gas Handling",
+      "Ability to Handle Liquid Problem-free under Unfavourable Conditions",
+      "Low NPSH Value",
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
-        "Head (H)": "Max 100m",
-        "Working Temperature": "80°C ~ 120°C",
-        Sizes: "9 Pump Sizes",
-        "Solid Handling Capacity": "Solid Size 50mm / 30% Solid Content",
+        "Flow (Q)": "Max 35m³/hr",
+        "Head (H)": "Max 354m",
+        "Speed": "Max 1800 rpm",
+        "Working Temperature": "180°C",
+        "Casing Pressure": "PN 40",
+        "Shaft Sealing": "Gland Packing / Mechanical Seal",
+        "Flange Connection": "DIN 2501 PN 40",
+        "Sense of Rotation": "Anti-Clockwise",
       },
     ],
     applications: [
-      "Refinery",
-      "Palm Oil Mill",
-      "Slurry Handling",
-      "Corrosive & Abrasive Pulp",
-      "Chemical Plant",
+      "Condensate",
+      "Distillation",
+      "Refrigerants",
+      "Oil Transfer",
+      "Fuel Storage",
+      "Liquid Gas",   
     ],
     model: [
-      "SK 2.5 / 1.5",
-      "SKL 2.5 / 1.5",
-      "SK 3 / 2",
-      "SKL 3 / 2",
-      "SK 4 / 3",
+      "OT 40-",
+      "OT 50-",
+      "OT 65-",
     ],
   },
   {
@@ -485,34 +492,35 @@ export const products = [
     image: "/skeroseries/DTSeries.png",
     description: "VOLUTE CASING DEAERATOR PUMP",
     features: [
-      "Realiability",
-      "Interchangeability",
-      "Minimizing Inventory Requirements",
-      "High Efficiency",
-      "Longer Life Span",
+      "Non-clogging Design",
+      "Suitable for Higher Flow per Pump",
+      "Reliability & High Efficiency",
+      "Simple Maintenance",
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
-        "Head (H)": "Max 100m",
-        "Working Temperature": "80°C ~ 120°C",
-        Sizes: "9 Pump Sizes",
-        "Solid Handling Capacity": "Solid Size 50mm / 30% Solid Content",
+        "Flow (Q)": "Max 110m³/hr",
+        "Head (H)": "Max 395m",
+        "Speed": "Max 3000 rpm",
+        "Working Temperature": "120°C",
+        "Casing Pressure": "PN 16/10",
+        "Shaft Sealing": "Mechanical Seal",
+        "Flange Connection": "DIN 2501 PN 16/10",
+        "Sense of Rotation": "Clockwise, when Viewed from the Driver End",
       },
     ],
     applications: [
-      "Refinery",
-      "Palm Oil Mill",
-      "Slurry Handling",
-      "Corrosive & Abrasive Pulp",
-      "Chemical Plant",
+      "Drinking Water Supply for Communities",
+      "General Water Supply in Agriculture, Business & Industry",
+      "Draining of Tanks & Reservoirs",
+      "Irrigation, sprinking & drainage systems",
+      "Condense Water Pumping",
+      "Petrochemical Sector",
+      "Handling Crude Oil & Refinery Intermediates",
     ],
     model: [
-      "SK 2.5 / 1.5",
-      "SKL 2.5 / 1.5",
-      "SK 3 / 2",
-      "SKL 3 / 2",
-      "SK 4 / 3",
+      "DT 65-250",
+      "DT 80-250",
     ],
   },
   {
@@ -529,7 +537,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
+        "Flow (Q)": "Max 400m³/hr",
         "Head (H)": "Max 100m",
         "Working Temperature": "80°C ~ 120°C",
         Sizes: "9 Pump Sizes",
@@ -565,7 +573,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
+        "Flow (Q)": "Max 400m³/hr",
         "Head (H)": "Max 100m",
         "Working Temperature": "80°C ~ 120°C",
         Sizes: "9 Pump Sizes",
@@ -601,7 +609,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
+        "Flow (Q)": "Max 400m³/hr",
         "Head (H)": "Max 100m",
         "Working Temperature": "80°C ~ 120°C",
         Sizes: "9 Pump Sizes",
@@ -637,7 +645,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
+        "Flow (Q)": "Max 400m³/hr",
         "Head (H)": "Max 100m",
         "Working Temperature": "80°C ~ 120°C",
         Sizes: "9 Pump Sizes",
@@ -673,7 +681,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
+        "Flow (Q)": "Max 400m³/hr",
         "Head (H)": "Max 100m",
         "Working Temperature": "80°C ~ 120°C",
         Sizes: "9 Pump Sizes",
@@ -709,7 +717,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
+        "Flow (Q)": "Max 400m³/hr",
         "Head (H)": "Max 100m",
         "Working Temperature": "80°C ~ 120°C",
         Sizes: "9 Pump Sizes",
@@ -745,7 +753,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
+        "Flow (Q)": "Max 400m³/hr",
         "Head (H)": "Max 100m",
         "Working Temperature": "80°C ~ 120°C",
         Sizes: "9 Pump Sizes",
@@ -781,7 +789,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
+        "Flow (Q)": "Max 400m³/hr",
         "Head (H)": "Max 100m",
         "Working Temperature": "80°C ~ 120°C",
         Sizes: "9 Pump Sizes",
@@ -817,7 +825,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
+        "Flow (Q)": "Max 400m³/hr",
         "Head (H)": "Max 100m",
         "Working Temperature": "80°C ~ 120°C",
         Sizes: "9 Pump Sizes",
@@ -853,7 +861,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
+        "Flow (Q)": "Max 400m³/hr",
         "Head (H)": "Max 100m",
         "Working Temperature": "80°C ~ 120°C",
         Sizes: "9 Pump Sizes",
@@ -889,7 +897,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
+        "Flow (Q)": "Max 400m³/hr",
         "Head (H)": "Max 100m",
         "Working Temperature": "80°C ~ 120°C",
         Sizes: "9 Pump Sizes",
@@ -925,7 +933,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
+        "Flow (Q)": "Max 400m³/hr",
         "Head (H)": "Max 100m",
         "Working Temperature": "80°C ~ 120°C",
         Sizes: "9 Pump Sizes",
@@ -961,7 +969,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
+        "Flow (Q)": "Max 400m³/hr",
         "Head (H)": "Max 100m",
         "Working Temperature": "80°C ~ 120°C",
         Sizes: "9 Pump Sizes",
@@ -997,7 +1005,7 @@ export const products = [
     ],
     technical: [
       {
-        "Flow Q": "Max 400m³/hr",
+        "Flow (Q)": "Max 400m³/hr",
         "Head (H)": "Max 100m",
         "Working Temperature": "80°C ~ 120°C",
         Sizes: "9 Pump Sizes",
