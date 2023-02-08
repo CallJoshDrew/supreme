@@ -14,7 +14,7 @@ export default function FeaturedCard({ category, index}) {
       sx={{
         maxWidth: "300px",
         padding: "0",
-        borderRadius: "15px",
+        borderRadius: "8px",
         boxShadow: 0,
         border: 1,
         borderColor: "rgb(255,211,51)",
@@ -34,7 +34,7 @@ export default function FeaturedCard({ category, index}) {
           component="div"
           backgroundColor="rgb(255,211,51)"
           padding="10px"
-          fontWeight="bold"
+         
           sx={{
             display: "flex",
             justifyContent: "center",
