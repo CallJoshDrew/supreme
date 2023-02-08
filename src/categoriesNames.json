@@ -466,17 +466,5 @@
         "image": "../coupling/tyreElement.png"
       }
     ]
-  },
-  {
-    "id": "18",
-    "brand": "MOTOLOGY",
-    "categories": [
-      {
-        "id": 1,
-        "name": "MOTOLOGY",
-        "alt": "MOTOLOGY EFFICIENCY 2&3",
-        "image": "../motology/motology.png"
-      }
-    ]
   }
 ]
