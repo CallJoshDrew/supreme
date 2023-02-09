@@ -86,7 +86,7 @@ export default function Brochure() {
               <Button
                 size="small"
                 variant="contained"
-                href="https://wa.me/60179906278?text=Hello,%20I%20would%20like%20acopy%20of%20e-brochure%202022"
+                href="https://wa.me/60138830602?text=Hello,%20I%20would%20like%20acopy%20of%20e-brochure%202022"
                 target="_blank"
                 color="secondary"
                 sx={{
