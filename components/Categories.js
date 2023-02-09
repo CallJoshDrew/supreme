@@ -109,23 +109,21 @@ export default function Categories() {
                   }}
                 >
                   <Tab label="VALVE" value="1" />
-                  <Tab label="ENMIN" value="2" />
-                  <Tab label="CHECK VALVE" value="3" />
-                  <Tab label="COATING" value="4" />
-                  <Tab label="BEARING HOUSING" value="5" />
-                  <Tab label="IMPELLER" value="6" />
-                  <Tab label="SEAL HOUSING" value="7" />
-                  <Tab label="SHAFT" value="8" />
-                  <Tab label="SHAFT SLEEVE" value="9" />
-                  <Tab label="RECORDING CHART" value="10" />
-                  <Tab label="BOILER" value="11" />
-                  <Tab label="MECHANICAL SEAL" value="12" />
-                  <Tab label="DIGESTER" value="13" />
-                  <Tab label="DESANDER" value="14" />
-                  <Tab label="SCREW PRESS" value="15" />
-                  <Tab label="VIBRATING SCREEN" value="16" />
-                  <Tab label="COUPLING" value="17" />
-                  <Tab label="MOTOLOGY" value="18" />
+                  <Tab label="CHECK VALVE" value="2" />
+                  <Tab label="COATING" value="3" />
+                  <Tab label="BEARING HOUSING" value="4" />
+                  <Tab label="IMPELLER" value="5" />
+                  <Tab label="SEAL HOUSING" value="6" />
+                  <Tab label="SHAFT" value="7" />
+                  <Tab label="SHAFT SLEEVE" value="8" />
+                  <Tab label="RECORDING CHART" value="9" />
+                  <Tab label="BOILER" value="10" />
+                  <Tab label="MECHANICAL SEAL" value="11" />
+                  <Tab label="DIGESTER" value="12" />
+                  <Tab label="DESANDER" value="13" />
+                  <Tab label="SCREW PRESS" value="14" />
+                  <Tab label="VIBRATING SCREEN" value="15" />
+                  <Tab label="COUPLING" value="16" />
                 </TabList>
                 </ThemeProvider>
             </Box>

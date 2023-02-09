@@ -122,7 +122,7 @@ export default function Details() {
                     Applications
                   </Typography>
                   {product.applications.map((application, index) => (
-                    <Typography key={index}>-  {application}</Typography>
+                    <Typography key={index}>{application}</Typography>
                   ))}
                 </Box>
                 <Box
@@ -136,7 +136,7 @@ export default function Details() {
                     Model
                   </Typography>
                   {product.model.map((model, index) => (
-                    <Typography key={index}>- {model}</Typography>
+                    <Typography sx={{maxWidth:"100%"}}key={index}>- {model}</Typography>
                   ))}
                 </Box>
               </Box>

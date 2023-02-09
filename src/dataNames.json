@@ -232,5 +232,23 @@
         "image": "../motology/motology.png"
       }
     ]
+  },
+  {
+    "id": "7",
+    "brand": "ENMIN",
+    "categories": [
+      {
+        "id": 1,
+        "name": "VIBRATORY FEEDER",
+        "alt": "VIBRATORY FEEDER",
+        "image": "../enmin/VibratoryFeeder.png"
+      },
+      {
+        "id": 2,
+        "name": "PERMANENT MAGNET",
+        "alt": "PERMANENT MAGNET",
+        "image": "../enmin/PermanentMagnet.png"
+      }
+    ]
   }
 ]

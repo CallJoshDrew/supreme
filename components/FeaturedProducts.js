@@ -113,9 +113,9 @@ export default function FeaturedProducts() {
                   <Tab label="TRP" value="4" />
                   <Tab label="SEW EURODRIVE" value="5" />
                   <Tab label="MOTOLOGY" value="6" />
-                  {/* <Tab label="VALVE" value="7" />
-                  <Tab label="CHECK VALVE" value="8" />
-                  <Tab label="COATING" value="9" />
+                  <Tab label="ENMIN" value="7" />
+                  {/* <Tab label="VALVE" value="8" />
+                  <Tab label="CHECK VALVE" value="9" />
                   <Tab label="BEARING HOUSING" value="10" />
                   <Tab label="IMPELLER" value="11" />
                   <Tab label="SEAL HOUSING" value="12" /> */}
