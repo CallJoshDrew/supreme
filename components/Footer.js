@@ -65,7 +65,7 @@ export default function Footer() {
           </Grid>
           <Grid item xs={12}>
             <Typography variant="h6" align="center" gutterBottom>
-              sales-supreme-evershine@gmail.com
+              supremeevershine@hotmail.com
             </Typography>
           </Grid>
         </Grid>
