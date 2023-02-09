@@ -1320,4 +1320,42 @@ export const products = [
       "SK 4 / 3",
     ],
   },
+  {
+    id: 30,
+    name: "CASTABLE ECOKAST",
+    image: "/digester/castableEcoKast.png",
+    description: "CASTABLE ECOKAST",
+    features: [
+      "Low Cost",
+      "Easy to Apply",
+      "Durability",
+      "Ease of Maintenance",
+      "High Thermal Conductivity",
+      "Time Saver",
+      "Medium to High Alumina General Purpose Castable",
+    ],
+    technical: [
+      { 
+        "Installation Method": "Vibration Casting",
+        "Max. Service Temperature": "1370°C (2500°F) - 1560°C (2840°F)",
+        "Water Addition, % by Weight" : "14 – 18 %",
+        "Installation Yield" : "1910 Kgs/m3 - 2050 Kgs/m3",
+        "Max Grain Size" : "9 mm",
+        "Standard Packaging": "25Kg/Bags",
+        "Storrage Life Under Dry Conditions": "9 Months",
+      },
+    ],
+    applications: [
+      "- Steam Boiler",
+      "- Thermal Oil Boiler",
+      "- Waste Oil Incinerator",
+    ],
+    model: [
+      "ECOKAST 14",
+      "ECOKAST 15",
+      "ECOKAST 16",
+      "ECOKAST 17",
+
+    ],
+  },
 ];

@@ -350,6 +350,12 @@
         "name": "DIGESTER PIN",
         "alt": "DIGESTER PIN",
         "image": "../digester/digesterPin.png"
+      },
+      {
+        "id": 6,
+        "name": "CASTABLE ECOKAST",
+        "alt": "CASTABLE ECOKAST",
+        "image": "../digester/castableEcoKast.png"
       }
     ]
   },
@@ -365,9 +371,9 @@
       },
       {
         "id": 2,
-        "name": "ALPHALAVALA TOP CYLINDER",
-        "alt": "ALPHALAVALA TOP CYLINDER",
-        "image": "../desander/alphalavalaTopCylinder.png"
+        "name": "ALPHALAVALA",
+        "alt": "ALPHALAVALA",
+        "image": "../desander/alphalaval.png"
       },
       {
         "id": 3,

@@ -30,7 +30,7 @@ export default function TrustedBy() {
           sx={{ color: "#152934", fontWeight: "bold", textAlign:"center"}}
           gutterBottom
         >
-          Happy clients since 2002!
+          Happy clients since 2014!
         </Typography>
       </Grid>
       <Grid container justifyContent="center" alignItems="center">
