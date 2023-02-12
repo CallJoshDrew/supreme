@@ -20,6 +20,7 @@ export default function Details() {
   if (!product) {
     return <div>Product not found</div>;
   }
+  const urlBack = product.urlBack;
   return (
     <Container maxWidth="md" sx={{ padding: { xs: "20px 15px", sm: "10px 15px" } }}>
       <ThemeProvider theme={theme}>
@@ -32,7 +33,7 @@ export default function Details() {
             alignItems: "center",
             marginBottom: { xs: "20px", sm: "20px" },
           }}>
-          <Link href="/#Featured Products">
+          <Link href={`/#${urlBack}`}>
             <ArrowCircleLeftIcon
               sx={{
                 color: "rgb(255,211,51)",
@@ -41,7 +42,7 @@ export default function Details() {
               }}
             />
           </Link>
-          <Link href="/#Featured Products">
+          <Link href={`/#${urlBack}`}>
             <Typography variant="h6" sx={{ cursor: "pointer" }}>
               Back
             </Typography>

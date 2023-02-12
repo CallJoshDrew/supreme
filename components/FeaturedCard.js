@@ -1,13 +1,15 @@
 import React from "react";
 import { Card, CardMedia, Typography } from "@mui/material";
-import Link from "next/link";
 import styles from "../styles/General.module.css";
 import { createTheme, ThemeProvider } from "@material-ui/core/styles";
 import { responsiveFontSizes } from "@mui/material";
-export default function FeaturedCard({ category, index}) {
+import Link from "next/link";
+export default function FeaturedCard(props) {
   let theme = createTheme();
   theme = responsiveFontSizes(theme);
   // console.log(index)
+  const { category, index } = props;
+ 
   return (
     <Card
       key={index}
@@ -19,14 +21,8 @@ export default function FeaturedCard({ category, index}) {
         border: 1,
         borderColor: "rgb(255,211,51)",
         textAlign: "center",
-      }}
-    >
-      <CardMedia
-        component="img"
-        image={category.image}
-        alt={category.alt}
-        sx={{ padding: "25px" }}
-      />
+      }}>
+      <CardMedia component="img" image={category.image} alt={category.alt} sx={{ padding: "25px" }} />
       <ThemeProvider theme={theme}>
         <Typography
           variant="subtitle2"
@@ -34,14 +30,12 @@ export default function FeaturedCard({ category, index}) {
           component="div"
           backgroundColor="rgb(255,211,51)"
           padding="10px"
-         
           sx={{
             display: "flex",
             justifyContent: "center",
             alignContent: "center",
             alignItems: "center",
-          }}
-        >
+          }}>
           <Link href={`/products/` + category.name}>
             <a className={styles.buttonLink}>{category.name}</a>
           </Link>

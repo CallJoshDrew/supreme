@@ -37,6 +37,8 @@ export const products = [
       "SKL 4 / 3",
       "SKL 6 / 4",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 2,
@@ -68,6 +70,8 @@ export const products = [
       "SKP 2",
       "SKP 3",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 3,
@@ -103,6 +107,8 @@ export const products = [
     model: [
       "SKLB 40-380C",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 4,
@@ -136,6 +142,8 @@ export const products = [
     model: [
       "SKWT 32-130 ~ 100-400",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 5,
@@ -169,6 +177,8 @@ export const products = [
     model: [
       "SKMS 1.5",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 6,
@@ -204,6 +214,8 @@ export const products = [
       "SK 268S / D",
       "SK 288S / D",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 7,
@@ -237,6 +249,8 @@ export const products = [
       "SK 368-600",
       "SK 368-1000",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 8,
@@ -277,6 +291,8 @@ export const products = [
       "SKVSP 4 / 3",
       "SKVSP 5 / 4R",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 9,
@@ -306,6 +322,8 @@ export const products = [
       "150-45S",
       "150-60S",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 10,
@@ -335,6 +353,8 @@ export const products = [
     model: [
       'SKOSP 1"',
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 11,
@@ -367,6 +387,8 @@ export const products = [
     model: [
       "SK 1250",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 12,
@@ -408,6 +430,8 @@ export const products = [
       "VC 65-200",
       "VC 65-266",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 13,
@@ -445,6 +469,8 @@ export const products = [
       "BF 50-",
       "BF 65-",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 14,
@@ -482,6 +508,8 @@ export const products = [
       "OT 50-",
       "OT 65-",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 15,
@@ -519,6 +547,8 @@ export const products = [
       "DT 65-250",
       "DT 80-250",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 16,
@@ -553,6 +583,8 @@ export const products = [
       "HGLC-250",
       "HGLC-300",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 17,
@@ -624,6 +656,8 @@ export const products = [
       "SE-HGD-2400",
       "SE-HGD-2600",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 18,
@@ -660,6 +694,8 @@ export const products = [
       "SKL 3 / 2",
       "SK 4 / 3",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 19,
@@ -689,6 +725,8 @@ export const products = [
     model: [
       "SE-8MT",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 20,
@@ -725,6 +763,8 @@ export const products = [
       "SKL 3 / 2",
       "SK 4 / 3",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 21,
@@ -761,6 +801,8 @@ export const products = [
       "SKL 3 / 2",
       "SK 4 / 3",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 22,
@@ -791,7 +833,9 @@ export const products = [
       "TRP HM200040",
       "Trp HM360060",
       "Trp HM500060",
-    ]
+    ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 23,
@@ -814,6 +858,8 @@ export const products = [
       "Chain Pitch 101.6",
       "Chain Pitch 152.4",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 24,
@@ -841,6 +887,8 @@ export const products = [
       "Gear Unit MC3PVSF05",
       "Gear Unit MC3PVSF06",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 25,
@@ -870,6 +918,8 @@ export const products = [
       "Gear Unit M3PSF70POM",
       "Gear Unit M3PSF80POM",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 26,
@@ -895,6 +945,8 @@ export const products = [
     model: [
       "Gear Unit 3PC250POM",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 27,
@@ -938,6 +990,8 @@ export const products = [
       "R 147",
       "R 167",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 28,
@@ -966,6 +1020,8 @@ export const products = [
       "Gear Unit M3PSF50POM",
       "Gear Unit M3PSF60POM",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 29,
@@ -1040,6 +1096,8 @@ export const products = [
       "ME355MB-6, ME355MB-8",
       "ME355L-2, ME355L-4, ME355L-6, ME355L-8"
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 30,
@@ -1094,6 +1152,8 @@ export const products = [
       "MEA132M-4, MEA132M-8",
       "MEA132MA-6, MEA132MB-6",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 31,
@@ -1154,6 +1214,8 @@ export const products = [
       "MEB180M-2, MEB180M-4",
       "MEB180L-2, MEB180L-4, MEB180L-6, MEB180L-8",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 32,
@@ -1181,6 +1243,8 @@ export const products = [
     model: [
       "MEY631-2, MEY631-4, MEY632-2, MEY632-4, MEY711-2, MEY711-4, MEY712-2, MEY712-4, MEY801-1, MEY801-4, MEY802-2, MEY802-4, MEY90S-2, MEY90S-4, MEY90L-2, MEY90L-4",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 33,
@@ -1209,6 +1273,8 @@ export const products = [
     model: [
       "MEL711-2, MEL711-4, MEL712-2, MEL712-4, MEL801-1, MEL801-4, MEL802-2, MEL802-4, MEL90S-2, MEL90S-4, MEL90L-2, MEL90L-4, MEL100L-2, MEL100L-4",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 34,
@@ -1243,6 +1309,8 @@ export const products = [
       "Tray Rectangular/Fines Removal/Bias/Conical/Tubular",
       "(Standard, Wide, Long & Medium): LD1, LD2, LD3, LD4",
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 35,
@@ -1283,6 +1351,8 @@ export const products = [
       "Chute Magnet, Bullet Magnet, Hump Magnet",
       "Magnetic Ferrous Trap/Liquid Filter"
     ],
+    urlBack: "Featured Products",
+    productTab: "2",
   },
   {
     id: 36,
@@ -1315,7 +1385,9 @@ export const products = [
       "- Automobile",
     ],
     model: [
-      "1-PC, 2-PC, 3-PC",
+      "Choose:",
+      "1-PC, 2-PC or 3-PC",
+      'Sizes:',
       '1/4"',
       '3/8"',
       '1/2"',
@@ -1327,8 +1399,9 @@ export const products = [
       '2-1/2"',
        '3"',
        '4"',
-      
     ],
+    urlBack: "Categories",
+    productTab: "2",
   },
   {
     id: 30,
@@ -1367,5 +1440,7 @@ export const products = [
       "ECOKAST 17",
 
     ],
+    urlBack: "Categories",
+    productTab: "2",
   },
 ];
