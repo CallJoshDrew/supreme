@@ -2,6 +2,7 @@ import { products } from "../../src/dataDetails";
 import ArrowCircleLeftIcon from "@mui/icons-material/ArrowCircleLeft";
 import SendIcon from "@mui/icons-material/Send";
 import ShareIcon from "@mui/icons-material/Share";
+import CircularProgress from "@mui/material/CircularProgress";
 import Image from "next/image";
 
 import { useRouter } from "next/router";
@@ -21,7 +22,11 @@ export default function Details() {
   const product = products.find((p) => p.name === id);
 
   if (!product) {
-    return <div>Product not found</div>;
+    return (
+      <Box sx={{ position: "fixed", top: "45%", left: "45%" }}>
+        <CircularProgress color="info" />
+      </Box>
+    );
   }
   const urlBack = product.urlBack;
   const productTab = product.productTab;
@@ -167,7 +172,7 @@ export default function Details() {
             <Grid item xs={12} align="center">
               <Button
                 variant="contained"
-                sx={{ color: 'white', margin: "15px 0" }}
+                sx={{ color: "white", margin: "15px 0" }}
                 endIcon={<ShareIcon />}
                 href={`https://api.whatsapp.com/send?text=https://supreme-evershine.com/products/${encodeURIComponent(product.link)}`}
                 color="info"
