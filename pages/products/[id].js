@@ -1,5 +1,7 @@
 import { products } from "../../src/dataDetails";
 import ArrowCircleLeftIcon from "@mui/icons-material/ArrowCircleLeft";
+import SendIcon from "@mui/icons-material/Send";
+import ShareIcon from "@mui/icons-material/Share";
 import Image from "next/image";
 
 import { useRouter } from "next/router";
@@ -17,7 +19,7 @@ export default function Details() {
   const id = query.id;
   const router = useRouter();
   const product = products.find((p) => p.name === id);
-  
+
   if (!product) {
     return <div>Product not found</div>;
   }
@@ -25,19 +27,22 @@ export default function Details() {
   const productTab = product.productTab;
   const handleBack = () => {
     router.push({
-      pathname: '/',
+      pathname: "/",
       query: {
         urlBack,
         productTab,
-      }
-    })
-  }
+      },
+    });
+  };
   return (
     <Container maxWidth="md" sx={{ padding: { xs: "20px 15px", sm: "10px 15px" } }}>
       <ThemeProvider theme={theme}>
         <Box
           component="div"
           sx={{
+            position: "fixed",
+            bottom: "0px",
+            right: "15px",
             display: "flex",
             justifyContent: "flex-start",
             gap: "10px",
@@ -48,16 +53,16 @@ export default function Details() {
             <ArrowCircleLeftIcon
               sx={{
                 color: "rgb(255,211,51)",
-                fontSize: "2rem",
+                fontSize: "2.7rem",
                 cursor: "pointer",
               }}
             />
           </a>
-          <a onClick={handleBack}>
+          {/* <a onClick={handleBack}>
             <Typography variant="h6" sx={{ cursor: "pointer" }} >
               Back
             </Typography>
-          </a>
+          </a> */}
         </Box>
         <Grid
           component="div"
@@ -73,10 +78,10 @@ export default function Details() {
                   border: 1,
                   borderRadius: "10px",
                   borderColor: "rgb(255,211,51)",
-                  padding:"20px 50px",
-                  minWidth:'300px',
+                  padding: "20px 50px",
+                  minWidth: "300px",
                 }}>
-                <Image src={product.image} alt={product.name} height={0} width={0} layout='responsive' objectFit='contain'/>
+                <Image src={product.image} alt={product.name} height={0} width={0} layout="responsive" objectFit="contain" />
               </Box>
               <Typography variant="h6" align="center" sx={{ padding: { xs: "15px", sm: "20px" } }}>
                 {product.name}
@@ -93,12 +98,12 @@ export default function Details() {
             </Grid>
             <Grid item xs={12} sm={5} md={5}>
               <Box
-              sx={{
-                flex: 1,
-                display: "flex",
-                flexDirection: "column",
-                gap: "50px",
-              }}>
+                sx={{
+                  flex: 1,
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "50px",
+                }}>
                 <Box
                   sx={{
                     marginTop: { xs: "50px", sm: "10px" },
@@ -108,7 +113,9 @@ export default function Details() {
                     Features
                   </Typography>
                   {product.features.map((feature, index) => (
-                    <Typography gutterBottom key={index}>- {feature}</Typography>
+                    <Typography gutterBottom key={index}>
+                      - {feature}
+                    </Typography>
                   ))}
                 </Box>
                 <Box
@@ -122,11 +129,13 @@ export default function Details() {
                     Technical Information
                   </Typography>
                   <Grid container spacing={1}>
-                  {Object.entries(product.technical[0]).map(([key, value], index) => (
-                    <Grid item xs={12} key={index}>
-                      <Typography>{key} : {value}</Typography>
-                    </Grid>
-                  ))}
+                    {Object.entries(product.technical[0]).map(([key, value], index) => (
+                      <Grid item xs={12} key={index}>
+                        <Typography>
+                          {key} : {value}
+                        </Typography>
+                      </Grid>
+                    ))}
                   </Grid>
                 </Box>
                 <Box sx={{ paddingLeft: "30px" }}>
@@ -148,14 +157,27 @@ export default function Details() {
                     Model
                   </Typography>
                   {product.model.map((model, index) => (
-                    <Typography sx={{maxWidth:"100%"}}key={index}>- {model}</Typography>
+                    <Typography sx={{ maxWidth: "100%" }} key={index}>
+                      - {model}
+                    </Typography>
                   ))}
                 </Box>
               </Box>
             </Grid>
+            <Grid item xs={12} align="center">
+              <Button
+                variant="contained"
+                sx={{ color: 'white', margin: "15px 0" }}
+                endIcon={<ShareIcon />}
+                href={`https://api.whatsapp.com/send?text=https://supreme-evershine.com/products/${encodeURIComponent(product.name)}`}
+                color="info"
+                target="_blank">
+                Share
+              </Button>
+            </Grid>
           </Grid>
         </Grid>
-        </ThemeProvider>
+      </ThemeProvider>
     </Container>
   );
 }
