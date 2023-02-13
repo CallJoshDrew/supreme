@@ -2,6 +2,7 @@ export const products = [
   {
     id: 1,
     name: "SK & SKL Series",
+    link: "SK%20&%20SKL%20Series",
     image: "/skseries/Skseries.png",
     description: "End Suction Centrifugal Pump",
     features: [
@@ -43,6 +44,7 @@ export const products = [
   {
     id: 2,
     name: "SKP SERIES",
+    link: "SKP%20SERIES",
     image: "/skseries/Skpseries.png",
     description: "Self-Priming Pump",
     features: [
@@ -76,6 +78,7 @@ export const products = [
   {
     id: 3,
     name: "SKLB SERIES",
+    link: "SKLB%20SERIES",
     image: "/skseries/Sklwseries.png",
     description: "Desander Centrifugal Pump",
     features: [
@@ -113,6 +116,7 @@ export const products = [
   {
     id: 4,
     name: "SKWT SERIES",
+    link: "SKWT%20SERIES",
     image: "/skseries/Skwtseries.png",
     description: "End Suction Centrifugal Pump",
     features: [
@@ -148,6 +152,7 @@ export const products = [
   {
     id: 5,
     name: "SKMS SERIES",
+    link: "SKMS%20SERIES",
     image: "/skseries/SKMSseries.png",
     description: "Closed Coupled, Small Centrifugal Pump",
     features: [
@@ -183,6 +188,7 @@ export const products = [
   {
     id: 6,
     name: "SK 168 & 188D",
+    link: "SK%20168%20&%20188D",
     image: "/skseries/ChemicalDosingPumpSK.png",
     description: "Chemical Dosing Pump",
     features: [
@@ -220,6 +226,7 @@ export const products = [
   {
     id: 7,
     name: "SK 368 SERIES",
+    link: "SK%20368%20SERIES",
     image: "/skseries/ChemicalDiaphragmPumpSK368Series.png",
     description: "Chemical Diaphragm Pump",
     features: [
@@ -255,6 +262,7 @@ export const products = [
   {
     id: 8,
     name: "SKVSP SERIES",
+    link: "SKVSP%20SERIES",
     image: "/skseries/VerticalSumpPumpSKVSPSeries.png",
     description: "Vertical Sump Pump",
     features: [
@@ -297,6 +305,7 @@ export const products = [
   {
     id: 9,
     name: "PRE-CLEANER SYSTEM",
+    link: "PRE-CLEANER%20SYSTEM",
     image: "/skseries/PreCleanerSystem.png",
     description: "SK PRE-CLEANER WITH AUTO DISCHARGE SYSTEM",
     features: [
@@ -328,6 +337,7 @@ export const products = [
   {
     id: 10,
     name: "SKOSP SERIES",
+    link: "SKOSP%20SERIES",
     image: "/skseries/SKOSPSeries.png",
     description: "OIL SKIMMER PUMP",
     features: [
@@ -359,6 +369,7 @@ export const products = [
   {
     id: 11,
     name: "SK MIXER SERIES",
+    link: "SK%20MIXER%20SERIES",
     image: "/skseries/SKMixerSeries.png",
     description: "SK MIXER & AGITATOR",
     features: [
@@ -393,6 +404,7 @@ export const products = [
   {
     id: 12,
     name: "VC SERIES",
+    link: "VC%20SERIES",
     image: "/skeroseries/VCSeries.png",
     description: "LIQUID RING VACUUM PUMP",
     features: [
@@ -436,6 +448,7 @@ export const products = [
   {
     id: 13,
     name: "BF SERIES",
+    link: "B%20SERIES",
     image: "/skeroseries/BFSeries.png",
     description: "MULTI STAGE BOILER FEED WATER PUMP",
     features: [
@@ -475,6 +488,7 @@ export const products = [
   {
     id: 14,
     name: "OT SERIES",
+    link: "OT%20SERIES",
     image: "/skeroseries/BFSeries.png",
     description: "SIDE CHANNEL OIL TRANSFER PUMP",
     features: [
@@ -514,6 +528,7 @@ export const products = [
   {
     id: 15,
     name: "DT SERIES",
+    link: "DT%20SERIES",
     image: "/skeroseries/DTSeries.png",
     description: "VOLUTE CASING DEAERATOR PUMP",
     features: [
@@ -553,6 +568,7 @@ export const products = [
   {
     id: 16,
     name: "WOLTMAN FLOWMETER",
+    link: "WOLTMAN%20FLOWMETER",
     image: "/setech/WoltmanFlowmeter.png",
     description: "COLD WATER HORIZONTAL WOLTMAN FLOWMETER",
     features: [
@@ -589,6 +605,7 @@ export const products = [
   {
     id: 17,
     name: "ELECTROMAGNETIC FLOWMETER",
+    link: "ELECTROMAGNETIC%20FLOWMETER",
     image: "/setech/ElectromagneticFlowmeter.png",
     description: "ELECTROMAGNETIC FLOWMETER",
     features: [
@@ -662,6 +679,7 @@ export const products = [
   {
     id: 18,
     name: "FLOWMETER CONTROLLER",
+    link: "FLOWMETER%20CONTROLLER",
     image: "/setech/FlowmeterController.png",
     description: "FLOWMETER CONTROLLER",
     features: [
@@ -700,6 +718,7 @@ export const products = [
   {
     id: 19,
     name: "NUT CRACKER",
+    link: "NUT%20CRACKER",
     image: "/setech/NutCracker.png",
     description: "NUT CRACKER",
     features: [
@@ -731,6 +750,7 @@ export const products = [
   {
     id: 20,
     name: "GAS DETECTOR",
+    link: "GAS%20DETECTOR",
     image: "/setech/GasDetector.png",
     description: "GAS DETECTOR",
     features: [
@@ -769,6 +789,7 @@ export const products = [
   {
     id: 21,
     name: "ULTRASONIC THICKNESS GAUG",
+    link: "ULTRASONIC%20THICKNESS%20GAUG",
     image: "/setech/UltrasonicGauge.png",
     description: "ULTRASONIC THICKNESS GAUG",
     features: [
@@ -807,6 +828,7 @@ export const products = [
   {
     id: 22,
     name: "CONVEYOR CHAIN",
+    link: "CONVEYOR%20CHAIN",
     image: "/trp/PalmOilChain.png",
     description: "CONVEYOR CHAIN",
     features: [
@@ -840,6 +862,7 @@ export const products = [
   {
     id: 23,
     name: "SPROCKETS",
+    link: "SPROCKETS",
     image: "/trp/Sprockets.png",
     description: "SPROCKETS",
     features: [
@@ -864,6 +887,7 @@ export const products = [
   {
     id: 24,
     name: "MC SERIES",
+    link: "MC%20SERIES",
     image: "/seweurodrive/MCSeries.png",
     description: "DIGESTER DRIVE",
     features: [
@@ -893,6 +917,7 @@ export const products = [
   {
     id: 25,
     name: "M SERIES",
+    link: "M%20SERIES",
     image: "/seweurodrive/MSeries.png",
     description: "KERNEL EXPELLER DRIVES",
     features: [
@@ -924,6 +949,7 @@ export const products = [
   {
     id: 26,
     name: "CN SERIES",
+    link: "CN%20SERIES",
     image: "/seweurodrive/CNSeries.png",
     description: "DIGESTER DRIVE",
     features: [
@@ -951,6 +977,7 @@ export const products = [
   {
     id: 27,
     name: "R SERIES",
+    link: "R%20SERIES",
     image: "/seweurodrive/RSeries.png",
     description: "HELICAL GEAR MOTORS",
     features: [
@@ -996,6 +1023,7 @@ export const products = [
   {
     id: 28,
     name: "M SERIES SCREW PRESS DRIVE",
+    link: "M%20SERIES%20SCREW%20PRESS%20DRIVE",
     image: "/seweurodrive/MSeriesScrew.png",
     description: "SCREW PRESS DRIVE",
     features: [
@@ -1026,6 +1054,7 @@ export const products = [
   {
     id: 29,
     name: "ME SERIES",
+    link: "ME%20SERIES",
     image: "/motology/motology.png",
     description: "THREE-PHASE ASYNCHRONOUS MOTOR",
     features: [
@@ -1102,6 +1131,7 @@ export const products = [
   {
     id: 30,
     name: "MEA SERIES",
+    link: "MEA%20SERIES",
     image: "/motology/motology.png",
     description: "THREE-PHASE ASYNCHRONOUS MOTOR",
     features: [
@@ -1158,6 +1188,7 @@ export const products = [
   {
     id: 31,
     name: "MEB SERIES",
+    link: "MEB%20SERIES",
     image: "/motology/motology.png",
     description: "THREE-PHASE ASYNCHRONOUS BRAKING MOTOR",
     features: [
@@ -1220,6 +1251,7 @@ export const products = [
   {
     id: 32,
     name: "MEY SERIES",
+    link: "MEY%20SERIES",
     image: "/motology/motology.png",
     description: "SINGLE-PHASE CAPACITOR RUN ASYNCHRONOUS MOTORS",
     features: [
@@ -1249,6 +1281,7 @@ export const products = [
   {
     id: 33,
     name: "MEL SERIES",
+    link: "MEL%20SERIES",
     image: "/motology/motology.png",
     description: "SINGLE-PHASE DUAL CAPACITOR RUN ASYNCHRONOUS MOTORS",
     features: [
@@ -1279,6 +1312,7 @@ export const products = [
   {
     id: 34,
     name: "VIBRATORY FEEDER",
+    link: "VIBRATORY%20FEEDER",
     image: "/enmin/VibratoryFeeder.png",
     description: "ELECTROMAGNETIC VIBRATORY EQUIPMENT",
     features: [
@@ -1315,6 +1349,7 @@ export const products = [
   {
     id: 35,
     name: "PERMANENT MAGNET",
+    link: "PERMANENT%20MAGNET",
     image: "/enmin/PermanentMagnet.png",
     description: "HIGH QUALITY MAGNETICS SYSTEMS",
     features: [
@@ -1357,6 +1392,7 @@ export const products = [
   {
     id: 36,
     name: "BALL VALVE",
+    link: "BALL%20VALVE",
     image: "/valve/BallValve3.png",
     description: "1PC / 3PC BODY SCREW END",
     features: [
@@ -1406,6 +1442,7 @@ export const products = [
   {
     id: 30,
     name: "CASTABLE ECOKAST",
+    link: "CASTABLE%20ECOKAST",
     image: "/digester/castableEcoKast.png",
     description: "CASTABLE ECOKAST",
     features: [

@@ -169,7 +169,7 @@ export default function Details() {
                 variant="contained"
                 sx={{ color: 'white', margin: "15px 0" }}
                 endIcon={<ShareIcon />}
-                href={`https://api.whatsapp.com/send?text=https://supreme-evershine.com/products/${encodeURIComponent(product.name)}`}
+                href={`https://api.whatsapp.com/send?text=https://supreme-evershine.com/products/${encodeURIComponent(product.link)}`}
                 color="info"
                 target="_blank">
                 Share
