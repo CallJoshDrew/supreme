@@ -38,7 +38,7 @@ export const products = [
       "SKL 6 / 4",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "1",
   },
   {
     id: 2,
@@ -71,7 +71,7 @@ export const products = [
       "SKP 3",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "1",
   },
   {
     id: 3,
@@ -108,7 +108,7 @@ export const products = [
       "SKLB 40-380C",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "1",
   },
   {
     id: 4,
@@ -143,7 +143,7 @@ export const products = [
       "SKWT 32-130 ~ 100-400",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "1",
   },
   {
     id: 5,
@@ -178,7 +178,7 @@ export const products = [
       "SKMS 1.5",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "1",
   },
   {
     id: 6,
@@ -215,7 +215,7 @@ export const products = [
       "SK 288S / D",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "1",
   },
   {
     id: 7,
@@ -250,7 +250,7 @@ export const products = [
       "SK 368-1000",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "1",
   },
   {
     id: 8,
@@ -292,7 +292,7 @@ export const products = [
       "SKVSP 5 / 4R",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "1",
   },
   {
     id: 9,
@@ -323,7 +323,7 @@ export const products = [
       "150-60S",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "1",
   },
   {
     id: 10,
@@ -354,7 +354,7 @@ export const products = [
       'SKOSP 1"',
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "1",
   },
   {
     id: 11,
@@ -388,7 +388,7 @@ export const products = [
       "SK 1250",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "1",
   },
   {
     id: 12,
@@ -584,7 +584,7 @@ export const products = [
       "HGLC-300",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "3",
   },
   {
     id: 17,
@@ -657,7 +657,7 @@ export const products = [
       "SE-HGD-2600",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "3",
   },
   {
     id: 18,
@@ -695,7 +695,7 @@ export const products = [
       "SK 4 / 3",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "3",
   },
   {
     id: 19,
@@ -726,7 +726,7 @@ export const products = [
       "SE-8MT",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "3",
   },
   {
     id: 20,
@@ -764,7 +764,7 @@ export const products = [
       "SK 4 / 3",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "3",
   },
   {
     id: 21,
@@ -802,7 +802,7 @@ export const products = [
       "SK 4 / 3",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "3",
   },
   {
     id: 22,
@@ -835,7 +835,7 @@ export const products = [
       "Trp HM500060",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "4",
   },
   {
     id: 23,
@@ -859,7 +859,7 @@ export const products = [
       "Chain Pitch 152.4",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "4",
   },
   {
     id: 24,
@@ -888,7 +888,7 @@ export const products = [
       "Gear Unit MC3PVSF06",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "5",
   },
   {
     id: 25,
@@ -919,7 +919,7 @@ export const products = [
       "Gear Unit M3PSF80POM",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "5",
   },
   {
     id: 26,
@@ -946,7 +946,7 @@ export const products = [
       "Gear Unit 3PC250POM",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "5",
   },
   {
     id: 27,
@@ -991,7 +991,7 @@ export const products = [
       "R 167",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "5",
   },
   {
     id: 28,
@@ -1021,7 +1021,7 @@ export const products = [
       "Gear Unit M3PSF60POM",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "5",
   },
   {
     id: 29,
@@ -1097,7 +1097,7 @@ export const products = [
       "ME355L-2, ME355L-4, ME355L-6, ME355L-8"
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "6",
   },
   {
     id: 30,
@@ -1153,7 +1153,7 @@ export const products = [
       "MEA132MA-6, MEA132MB-6",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "6",
   },
   {
     id: 31,
@@ -1215,7 +1215,7 @@ export const products = [
       "MEB180L-2, MEB180L-4, MEB180L-6, MEB180L-8",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "6",
   },
   {
     id: 32,
@@ -1244,7 +1244,7 @@ export const products = [
       "MEY631-2, MEY631-4, MEY632-2, MEY632-4, MEY711-2, MEY711-4, MEY712-2, MEY712-4, MEY801-1, MEY801-4, MEY802-2, MEY802-4, MEY90S-2, MEY90S-4, MEY90L-2, MEY90L-4",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "6",
   },
   {
     id: 33,
@@ -1274,7 +1274,7 @@ export const products = [
       "MEL711-2, MEL711-4, MEL712-2, MEL712-4, MEL801-1, MEL801-4, MEL802-2, MEL802-4, MEL90S-2, MEL90S-4, MEL90L-2, MEL90L-4, MEL100L-2, MEL100L-4",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "6",
   },
   {
     id: 34,
@@ -1310,7 +1310,7 @@ export const products = [
       "(Standard, Wide, Long & Medium): LD1, LD2, LD3, LD4",
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "7",
   },
   {
     id: 35,
@@ -1352,7 +1352,7 @@ export const products = [
       "Magnetic Ferrous Trap/Liquid Filter"
     ],
     urlBack: "Featured Products",
-    productTab: "2",
+    productTab: "7",
   },
   {
     id: 36,
@@ -1401,7 +1401,7 @@ export const products = [
        '4"',
     ],
     urlBack: "Categories",
-    productTab: "2",
+    productTab: "1",
   },
   {
     id: 30,
@@ -1441,6 +1441,6 @@ export const products = [
 
     ],
     urlBack: "Categories",
-    productTab: "2",
+    productTab: "12",
   },
 ];

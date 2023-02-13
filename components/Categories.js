@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useMemo } from "react";
 import FeaturedCard from "../components/FeaturedCard.js";
 import Box from "@mui/material/Box";
 import Tab from "@mui/material/Tab";
@@ -47,8 +47,17 @@ let theme = createTheme({
 
 theme = responsiveFontSizes(theme);
 
-export default function Categories() {
+export default function Categories({urlBack, productTab}) {
   const [value, setValue] = React.useState("1");
+  // Check whether the value of urlBack comes from the FeaturedProducts or Categories
+  // Only if Categories then we do something, if not then we set the active tab value to 1.
+  const memoizedValue = useMemo(() => {
+    return (urlBack == "Categories") ? productTab : '1';
+  }, [urlBack, productTab])
+  
+  useEffect(() => {
+    setValue(memoizedValue);
+  }, [memoizedValue, setValue]);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);

@@ -15,12 +15,23 @@ export default function Details() {
   theme = responsiveFontSizes(theme);
   const { query } = useRouter();
   const id = query.id;
-
+  const router = useRouter();
   const product = products.find((p) => p.name === id);
+  
   if (!product) {
     return <div>Product not found</div>;
   }
   const urlBack = product.urlBack;
+  const productTab = product.productTab;
+  const handleBack = () => {
+    router.push({
+      pathname: '/',
+      query: {
+        urlBack,
+        productTab,
+      }
+    })
+  }
   return (
     <Container maxWidth="md" sx={{ padding: { xs: "20px 15px", sm: "10px 15px" } }}>
       <ThemeProvider theme={theme}>
@@ -33,7 +44,7 @@ export default function Details() {
             alignItems: "center",
             marginBottom: { xs: "20px", sm: "20px" },
           }}>
-          <Link href={`/#${urlBack}`}>
+          <a onClick={handleBack}>
             <ArrowCircleLeftIcon
               sx={{
                 color: "rgb(255,211,51)",
@@ -41,12 +52,12 @@ export default function Details() {
                 cursor: "pointer",
               }}
             />
-          </Link>
-          <Link href={`/#${urlBack}`}>
-            <Typography variant="h6" sx={{ cursor: "pointer" }}>
+          </a>
+          <a onClick={handleBack}>
+            <Typography variant="h6" sx={{ cursor: "pointer" }} >
               Back
             </Typography>
-          </Link>
+          </a>
         </Box>
         <Grid
           component="div"
