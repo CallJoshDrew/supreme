@@ -97,7 +97,7 @@ export default function Details() {
                 <Typography variant="h6" align="center" sx={{ paddingTop: "5px", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)", color:"white" }}>
                   {product.name}
                 </Typography>
-                <Typography align="center" sx={{ paddingBottom: "5px", color: "#444444", fontWeight:"600", textShadow: "2px 2px 2px rgba(0,0,0,0.3), 0px 0px 10px rgba(255,255,255,0.3)" }}>
+                <Typography align="center" sx={{ paddingBottom: "5px", color: "#444444", fontWeight:"600", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)" }}>
                   {product.description}
                 </Typography>
               </Box>
