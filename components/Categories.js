@@ -34,6 +34,7 @@ let theme = createTheme({
             color: "black",
      
             "&.Mui-selected": {
+              color: "white",
               backgroundColor: "rgb(255,211,51)",
               border: "1px solid rgb(255,211,51)",
               borderRadius: "15px",
