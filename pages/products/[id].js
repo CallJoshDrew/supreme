@@ -79,7 +79,7 @@ export default function Details() {
             <Grid item xs={12} sm={6} md={5}>
               <Box
                 sx={{
-                  border: 1,
+                  border: 2,
                   borderRadius: "10px",
                   borderColor: "rgb(255,211,51)",
                   padding: "20px 50px",
@@ -97,7 +97,7 @@ export default function Details() {
                 <Typography variant="h6" align="center" sx={{ paddingTop: "5px", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)", color:"white" }}>
                   {product.name}
                 </Typography>
-                <Typography align="center" sx={{ paddingBottom: "5px", color: "#444444", fontWeight:"600", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)" }}>
+                <Typography align="center" sx={{ paddingBottom: "5px", color: "#444444", fontWeight:"600", textShadow: "2px 2px 2px rgba(0,0,0,0.3), 0px 0px 10px rgba(255,255,255,0.3)" }}>
                   {product.description}
                 </Typography>
               </Box>
@@ -139,18 +139,19 @@ export default function Details() {
                 </Box>
                 <Box
                   sx={{
-                    border: 1,
+                    backgroundColor:"rgb(255,211,51)",
                     borderRadius: "5px",
-                    borderColor: "rgb(255,211,51)",
+                    border: "1px",
                     padding: "20px",
+                    boxShadow: 1,
                   }}>
-                  <Typography variant="h6" gutterBottom color="#444444">
+                  <Typography variant="h6" gutterBottom color="white" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}>
                     Technical Information
                   </Typography>
                   <Grid container spacing={1}>
                     {Object.entries(product.technical[0]).map(([key, value], index) => (
                       <Grid item xs={12} key={index}>
-                        <Typography>
+                        <Typography sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}>
                           {key} : {value}
                         </Typography>
                       </Grid>
@@ -180,16 +181,17 @@ export default function Details() {
                 </Box>
                 <Box
                   sx={{
-                    border: 1,
+                    backgroundColor:"rgb(255,211,51)",
                     borderRadius: "5px",
-                    borderColor: "rgb(255,211,51)",
-                    padding: "30px",
+                    border: "1px",
+                    padding: "20px",
+                    boxShadow: 1,
                   }}>
-                  <Typography variant="h6" gutterBottom color="#444444" sx={{}}>
+                  <Typography variant="h6" gutterBottom color="white" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}>
                     Model
                   </Typography>
                   {product.model.map((model, index) => (
-                    <Typography sx={{ maxWidth: "100%" }} key={index}>
+                    <Typography sx={{ maxWidth: "100%"}} key={index}>
                       {model}
                     </Typography>
                   ))}
@@ -199,7 +201,7 @@ export default function Details() {
             <Grid item xs={12} align="center">
               <Button
                 variant="contained"
-                sx={{ color: "white", margin: "12px 0", padding: "10px 20px", fontWeight: "800", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}
+                sx={{ boxShadow: '3',color: "white", margin: "12px 0", padding: "10px 20px", fontWeight: "800", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}
                 endIcon={<ShareIcon />}
                 href={`https://api.whatsapp.com/send?text=https://supreme-evershine.com/products/${encodeURIComponent(product.link)}`}
                 color="info"
