@@ -1,8 +1,7 @@
 import { products } from "../../src/dataDetails";
-import ArrowCircleLeftIcon from "@mui/icons-material/ArrowCircleLeft";
-import SendIcon from "@mui/icons-material/Send";
 import ShareIcon from "@mui/icons-material/Share";
 import CircularProgress from "@mui/material/CircularProgress";
+import CancelIcon from "@mui/icons-material/Cancel";
 import Image from "next/image";
 
 import { useRouter } from "next/router";
@@ -55,10 +54,10 @@ export default function Details() {
             marginBottom: { xs: "20px", sm: "20px" },
           }}>
           <a onClick={handleBack}>
-            <ArrowCircleLeftIcon
+            <CancelIcon
               sx={{
                 color: "rgb(255,211,51)",
-                fontSize: "2.7rem",
+                fontSize: "2.5rem",
                 cursor: "pointer",
               }}
             />
@@ -88,15 +87,17 @@ export default function Details() {
                 }}>
                 <Image src={product.image} alt={product.name} height={0} width={0} layout="responsive" objectFit="contain" />
               </Box>
-              <Typography variant="h6" align="center" sx={{ padding: { xs: "15px", sm: "20px" } }}>
-                {product.name}
-              </Typography>
               <Box
                 sx={{
+                  marginTop: "10px",
                   borderRadius: "5px",
                   backgroundColor: "rgb(255,211,51)",
+                  boxShadow: 1,
                 }}>
-                <Typography align="center" sx={{ padding: { xs: "5px", sm: "15px" } }}>
+                <Typography variant="h6" align="center" sx={{ paddingTop: "5px", color: "#444444" }}>
+                  {product.name}
+                </Typography>
+                <Typography align="center" sx={{ paddingBottom: "5px", color: "#444444", fontWeight:"600" }}>
                   {product.description}
                 </Typography>
               </Box>
@@ -114,9 +115,21 @@ export default function Details() {
                     marginTop: { xs: "50px", sm: "10px" },
                     paddingLeft: "30px",
                   }}>
-                  <Typography variant="h6" gutterBottom>
+                  <Box
+                    component="button"
+                    sx={{
+                      border: "1px solid rgb(255,211,51)",
+                      borderRadius: "5px",
+                      boxShadow: 1,
+                      marginBottom: "20px",
+                      padding: "10px 15px",
+                      backgroundColor: "rgb(255,211,51)",
+                      fontSize: "1rem",
+                      fontWeight: "600",
+                      color: "white",
+                    }}>
                     Features
-                  </Typography>
+                  </Box>
                   {product.features.map((feature, index) => (
                     <Typography gutterBottom key={index}>
                       - {feature}
@@ -130,7 +143,7 @@ export default function Details() {
                     borderColor: "rgb(255,211,51)",
                     padding: "20px",
                   }}>
-                  <Typography variant="h6" gutterBottom>
+                  <Typography variant="h6" gutterBottom color="#444444">
                     Technical Information
                   </Typography>
                   <Grid container spacing={1}>
@@ -144,9 +157,21 @@ export default function Details() {
                   </Grid>
                 </Box>
                 <Box sx={{ paddingLeft: "30px" }}>
-                  <Typography variant="h6" gutterBottom>
+                <Box
+                    component="button"
+                    sx={{
+                      border: "1px solid rgb(255,211,51)",
+                      borderRadius: "5px",
+                      boxShadow: 1,
+                      marginBottom: "20px",
+                      padding: "10px 15px",
+                      backgroundColor: "rgb(255,211,51)",
+                      fontSize: "1rem",
+                      fontWeight: "600",
+                      color: "white",
+                    }}>
                     Applications
-                  </Typography>
+                  </Box>
                   {product.applications.map((application, index) => (
                     <Typography key={index}>{application}</Typography>
                   ))}
@@ -158,12 +183,12 @@ export default function Details() {
                     borderColor: "rgb(255,211,51)",
                     padding: "30px",
                   }}>
-                  <Typography variant="h6" gutterBottom>
+                  <Typography variant="h6" gutterBottom color="#444444">
                     Model
                   </Typography>
                   {product.model.map((model, index) => (
                     <Typography sx={{ maxWidth: "100%" }} key={index}>
-                      - {model}
+                      {model}
                     </Typography>
                   ))}
                 </Box>
@@ -172,7 +197,7 @@ export default function Details() {
             <Grid item xs={12} align="center">
               <Button
                 variant="contained"
-                sx={{ color: "white", margin: "15px 0" }}
+                sx={{ color: "white", margin: "12px 0", padding: "10px 20px", fontWeight: "800", }}
                 endIcon={<ShareIcon />}
                 href={`https://api.whatsapp.com/send?text=https://supreme-evershine.com/products/${encodeURIComponent(product.link)}`}
                 color="info"
