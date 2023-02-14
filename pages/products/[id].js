@@ -56,9 +56,12 @@ export default function Details() {
           <a onClick={handleBack}>
             <CancelIcon
               sx={{
-                color: "rgb(255,211,51)",
-                fontSize: "2.5rem",
+                color: "white",
+                backgroundColor: "rgb(255,211,51)",
+                fontSize: "2rem",
                 cursor: "pointer",
+                boxShadow:"3",
+                borderRadius:"100%",
               }}
             />
           </a>
@@ -201,7 +204,7 @@ export default function Details() {
             <Grid item xs={12} align="center">
               <Button
                 variant="contained"
-                sx={{ boxShadow: '3',color: "white", margin: "12px 0", padding: "10px 20px", fontWeight: "800", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}
+                sx={{ boxShadow: '3',color: "white", margin: "12px 0 4px", padding: "10px 20px", fontWeight: "800", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}
                 endIcon={<ShareIcon />}
                 href={`https://api.whatsapp.com/send?text=https://supreme-evershine.com/products/${encodeURIComponent(product.link)}`}
                 color="info"
