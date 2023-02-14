@@ -25,16 +25,17 @@ let theme = createTheme({
           "&.MuiTab-root": {
             border: 0,
             "&:hover": {
-              borderBottom: "1px solid",
-              color: "rgb(255,211,51)",
+              border: "2px solid rgb(255,211,51)",
+              borderRadius: "15px",
+              color: "$444444",
             },
           },
           "&.MuiTab-textColorPrimary": {
             color: "black",
      
             "&.Mui-selected": {
-              color: "rgb(255,211,51)",
-              border: "1px solid",
+              backgroundColor: "rgb(255,211,51)",
+              border: "1px solid rgb(255,211,51)",
               borderRadius: "15px",
             },
           },
@@ -89,7 +90,7 @@ export default function FeaturedProducts({urlBack, productTab}) {
         <Typography
           variant="h4"
           component="div"
-          sx={{ padding: { xs: "0 0 20px 5px", md: "40px 20px 20px 0px"} }}
+          sx={{ padding: { xs: "0 0 20px 5px", md: "40px 20px 20px 0px"}, textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)" }}
           className={styles.Heading}
         >
           Featured Products
@@ -116,13 +117,13 @@ export default function FeaturedProducts({urlBack, productTab}) {
                     },
                   }}
                 >
-                  <Tab label="SK PUMP" value="1" />
-                  <Tab label="SK E-RO PUMP" value="2" />
-                  <Tab label="SE-TECH" value="3" />
-                  <Tab label="TRP" value="4" />
-                  <Tab label="SEW EURODRIVE" value="5" />
-                  <Tab label="MOTOLOGY" value="6" />
-                  <Tab label="ENMIN" value="7" />
+                  <Tab label="SK PUMP" value="1" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="SK E-RO PUMP" value="2" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="SE-TECH" value="3" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="TRP" value="4" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="SEW EURODRIVE" value="5" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="MOTOLOGY" value="6" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="ENMIN" value="7" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
                   {/* <Tab label="VALVE" value="8" />
                   <Tab label="CHECK VALVE" value="9" />
                   <Tab label="BEARING HOUSING" value="10" />
@@ -133,7 +134,7 @@ export default function FeaturedProducts({urlBack, productTab}) {
                 </ThemeProvider>
             </Box>
             {products.map((product, index) => (
-              <TabPanel value={product.id} key={index}  sx={{ padding: { xs: "20px 0", md: "30px 0"} }}>
+              <TabPanel value={product.id} key={index}  sx={{ padding: { xs: "20px 0", md: "30px 0"}, textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)" }}>
                 <Grid
                   container direction="row" justifyContent="flex-start" spacing={2} 
                 >

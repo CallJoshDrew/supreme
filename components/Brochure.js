@@ -32,6 +32,7 @@ export default function Brochure() {
                 sx={{
                   fontSize: "2rem",
                   fontWeight: "700",
+                  textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
                   backgroundColor: "white",
                   padding: "0 15px",
                   position: "absolute",
@@ -79,6 +80,7 @@ export default function Brochure() {
                   my: 2,
                   marginRight: 2,
                   p: 1.5,
+                  textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
                 }}
               >
                 Email
@@ -92,6 +94,7 @@ export default function Brochure() {
                 sx={{
                   my: 2,
                   p: 1.5,
+                  textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
                 }}
               >
                 Whatsapp

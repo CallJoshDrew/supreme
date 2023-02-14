@@ -24,7 +24,7 @@ export default function Footer() {
           marginTop: "80px",
         }}
       >
-        <Typography variant="h2" gutterBottom>
+        <Typography variant="h2" gutterBottom sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}>
           Contact Us
         </Typography>
         <Grid container justifyContent="center" alignItems="center" alignContent='center'>
@@ -37,7 +37,7 @@ export default function Footer() {
             </Typography>
           </Grid>
           <Grid item xs={12}>
-            <Typography variant="h6" align="center" gutterBottom>
+            <Typography variant="h6" align="center" gutterBottom sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}>
               Jalan Lintas Sibuga, lintas indsutrial park, 90000 Sandakan,
               Sabah.
             </Typography>
@@ -51,7 +51,7 @@ export default function Footer() {
             </Typography>
           </Grid>
           <Grid item xs={12}>
-            <Typography variant="h6" align="center" gutterBottom>
+            <Typography variant="h6" align="center" gutterBottom sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}>
               +6013-883-0602
             </Typography>
           </Grid>
@@ -59,12 +59,12 @@ export default function Footer() {
             <EmailIcon fontSize="large"/>
           </Grid>
           <Grid item xs={6} md={6} sx={{paddingTop: '10px'}}>
-            <Typography variant="h5" align="left" >
+            <Typography variant="h5" align="left">
               Email
             </Typography>
           </Grid>
           <Grid item xs={12}>
-            <Typography variant="h6" align="center" gutterBottom>
+            <Typography variant="h6" align="center" gutterBottom sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}>
               supremeevershine@hotmail.com
             </Typography>
           </Grid>

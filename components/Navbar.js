@@ -11,7 +11,6 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import Logo from "../public/Logo.png";
 
-
 const pages = ["Featured Products", "Categories", "e-Brochure"];
 
 const NavBar = () => {
@@ -28,16 +27,13 @@ const NavBar = () => {
   return (
     <AppBar position="fixed" style={{ backgroundColor: "rgb(255,211,51)" }}>
       <Container maxWidth="md">
-        <Toolbar
-          disableGutters
-          sx={{ display: "flex", justifyContent: "space-between" }}
-        >
+        <Toolbar disableGutters sx={{ display: "flex", justifyContent: "space-between" }}>
           <Box
             component="img"
             sx={{
               height: 64,
               order: 1,
-              padding: '5px'
+              padding: "5px",
             }}
             alt="Your logo."
             src={Logo.src}
@@ -57,8 +53,8 @@ const NavBar = () => {
               letterSpacing: ".1rem",
               color: "black",
               textDecoration: "none",
-            }}
-          >
+              textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
+            }}>
             Supreme Evershine
           </Typography>
           <Typography
@@ -76,8 +72,8 @@ const NavBar = () => {
               letterSpacing: ".1rem",
               color: "black",
               textDecoration: "none",
-            }}
-          >
+              textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
+            }}>
             Supreme Evershine
           </Typography>
           <Box
@@ -85,8 +81,7 @@ const NavBar = () => {
               display: { xs: "none", md: "flex" },
               order: 3,
               scrollBehavior: "smooth",
-            }}
-          >
+            }}>
             {pages.map((page) => (
               <Button
                 href={`/#${page}`}
@@ -97,11 +92,11 @@ const NavBar = () => {
                   color: "black",
                   display: "block",
                   textTransform: "capitalize",
-                  fontWeight: "700",
+                  fontWeight: "500",
                   fontSize: "1rem",
                   textDecoration: "none",
-                }}
-              >
+                  textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
+                }}>
                 {page}
               </Button>
             ))}
@@ -111,16 +106,14 @@ const NavBar = () => {
               display: { xs: "flex", md: "none" },
               order: 4,
               fontSize: "2rem",
-            }}
-          >
+            }}>
             <IconButton
               size="large"
               aria-label="account of current user"
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="default"
-            >
+              color="default">
               <MenuIcon />
             </IconButton>
             <Menu
@@ -142,10 +135,9 @@ const NavBar = () => {
                   xs: "block",
                   md: "none",
                   textTransform: "capitalize",
-                  fontWeight: "700",
+                  fontWeight: "500",
                 },
-              }}
-            >
+              }}>
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Button
@@ -158,8 +150,7 @@ const NavBar = () => {
                       fontWeight: "700",
                       fontSize: "0.80rem",
                       textDecoration: "none",
-                    }}
-                  >
+                    }}>
                     {page}
                   </Button>
                 </MenuItem>

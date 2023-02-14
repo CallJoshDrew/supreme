@@ -25,16 +25,17 @@ let theme = createTheme({
           "&.MuiTab-root": {
             border: 0,
             "&:hover": {
-              borderBottom: "1px solid",
-              color: "rgb(255,211,51)",
+              border: "2px solid rgb(255,211,51)",
+              borderRadius: "15px",
+              color: "$444444",
             },
           },
           "&.MuiTab-textColorPrimary": {
             color: "black",
      
             "&.Mui-selected": {
-              color: "rgb(255,211,51)",
-              border: "1px solid",
+              backgroundColor: "rgb(255,211,51)",
+              border: "1px solid rgb(255,211,51)",
               borderRadius: "15px",
             },
           },
@@ -90,7 +91,7 @@ export default function Categories({urlBack, productTab}) {
         <Typography
           variant="h4"
           component="div"
-          sx={{ padding: { xs: "0 0 20px 5px", md: "40px 20px 20px 0px"} }}
+          sx={{ padding: { xs: "0 0 20px 5px", md: "40px 20px 20px 0px"}, textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)" }}
           className={styles.Heading}
         >
           Categories
@@ -117,27 +118,27 @@ export default function Categories({urlBack, productTab}) {
                     },
                   }}
                 >
-                  <Tab label="VALVE" value="1" />
-                  <Tab label="CHECK VALVE" value="2" />
-                  <Tab label="COATING" value="3" />
-                  <Tab label="BEARING HOUSING" value="4" />
-                  <Tab label="IMPELLER" value="5" />
-                  <Tab label="SEAL HOUSING" value="6" />
-                  <Tab label="SHAFT" value="7" />
-                  <Tab label="SHAFT SLEEVE" value="8" />
-                  <Tab label="RECORDING CHART" value="9" />
-                  <Tab label="BOILER" value="10" />
-                  <Tab label="MECHANICAL SEAL" value="11" />
-                  <Tab label="DIGESTER" value="12" />
-                  <Tab label="DESANDER" value="13" />
-                  <Tab label="SCREW PRESS" value="14" />
-                  <Tab label="VIBRATING SCREEN" value="15" />
-                  <Tab label="COUPLING" value="16" />
+                  <Tab label="VALVE" value="1" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="CHECK VALVE" value="2" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="COATING" value="3" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="BEARING HOUSING" value="4" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="IMPELLER" value="5" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="SEAL HOUSING" value="6" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="SHAFT" value="7" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="SHAFT SLEEVE" value="8" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="RECORDING CHART" value="9" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="BOILER" value="10" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="MECHANICAL SEAL" value="11" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="DIGESTER" value="12" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="DESANDER" value="13" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="SCREW PRESS" value="14" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="VIBRATING SCREEN" value="15" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
+                  <Tab label="COUPLING" value="16" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}/>
                 </TabList>
                 </ThemeProvider>
             </Box>
             {products.map((product, index) => (
-              <TabPanel value={product.id} key={index}  sx={{ padding: { xs: "20px 0", md: "30px 0"} }}>
+              <TabPanel value={product.id} key={index}  sx={{ padding: { xs: "20px 0", md: "30px 0"}, textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}>
                 <Grid
                   container direction="row" justifyContent="flex-start" spacing={2} 
                 >

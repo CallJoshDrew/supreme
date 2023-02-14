@@ -94,10 +94,10 @@ export default function Details() {
                   backgroundColor: "rgb(255,211,51)",
                   boxShadow: 1,
                 }}>
-                <Typography variant="h6" align="center" sx={{ paddingTop: "5px", color: "#444444" }}>
+                <Typography variant="h6" align="center" sx={{ paddingTop: "5px", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)", color:"white" }}>
                   {product.name}
                 </Typography>
-                <Typography align="center" sx={{ paddingBottom: "5px", color: "#444444", fontWeight:"600" }}>
+                <Typography align="center" sx={{ paddingBottom: "5px", color: "#444444", fontWeight:"600", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)" }}>
                   {product.description}
                 </Typography>
               </Box>
@@ -127,6 +127,7 @@ export default function Details() {
                       fontSize: "1rem",
                       fontWeight: "600",
                       color: "white",
+                      textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"
                     }}>
                     Features
                   </Box>
@@ -169,6 +170,7 @@ export default function Details() {
                       fontSize: "1rem",
                       fontWeight: "600",
                       color: "white",
+                      textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"
                     }}>
                     Applications
                   </Box>
@@ -183,7 +185,7 @@ export default function Details() {
                     borderColor: "rgb(255,211,51)",
                     padding: "30px",
                   }}>
-                  <Typography variant="h6" gutterBottom color="#444444">
+                  <Typography variant="h6" gutterBottom color="#444444" sx={{}}>
                     Model
                   </Typography>
                   {product.model.map((model, index) => (
@@ -197,7 +199,7 @@ export default function Details() {
             <Grid item xs={12} align="center">
               <Button
                 variant="contained"
-                sx={{ color: "white", margin: "12px 0", padding: "10px 20px", fontWeight: "800", }}
+                sx={{ color: "white", margin: "12px 0", padding: "10px 20px", fontWeight: "800", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}
                 endIcon={<ShareIcon />}
                 href={`https://api.whatsapp.com/send?text=https://supreme-evershine.com/products/${encodeURIComponent(product.link)}`}
                 color="info"

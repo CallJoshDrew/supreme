@@ -20,14 +20,14 @@ export default function TrustedBy() {
         <Typography
           variant="h2"
           component="div"
-          sx={{ color: "rgb(255,211,51)", fontWeight: "700", textAlign:"center", padding:"50px 0 0"}}
+          sx={{ color: "rgb(255,211,51)", fontWeight: "bold", textAlign:"center", padding:"50px 0 0", }}
         >
           TRUSTED BY
         </Typography>
         <Typography
           variant="h4"
           component="div"
-          sx={{ color: "#152934", fontWeight: "bold", textAlign:"center"}}
+          sx={{ color: "#152934", fontWeight: "bold", textAlign:"center", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}
           gutterBottom
         >
           Happy clients since 2014!

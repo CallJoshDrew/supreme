@@ -37,6 +37,7 @@ export default function MediaCard() {
           fontFamily: "Playfair Display, serif",
           borderBottomRightRadius: "5px",
           borderBottomLeftRadius: "5px",
+          textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
         }}
       >
         Together We Help, We Grow, We Prosper!
