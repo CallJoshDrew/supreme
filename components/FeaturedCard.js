@@ -9,7 +9,7 @@ export default function FeaturedCard(props) {
   theme = responsiveFontSizes(theme);
   // console.log(index)
   const { category, index } = props;
- 
+  
   return (
     <Card
       key={index}
@@ -22,7 +22,7 @@ export default function FeaturedCard(props) {
         borderColor: "rgb(255,211,51)",
         textAlign: "center",
       }}>
-      <CardMedia component="img" image={category.image} alt={category.alt} sx={{ padding: "25px" }} />
+      <CardMedia component="img" image={category.image} alt={category.alt} sx={{ minHeight: '150px',padding: "25px" }} />
       <ThemeProvider theme={theme}>
         <Typography
           variant="subtitle2"
