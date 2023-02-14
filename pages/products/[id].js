@@ -82,11 +82,12 @@ export default function Details() {
             <Grid item xs={12} sm={6} md={5}>
               <Box
                 sx={{
-                  border: 2,
+                  border: 1,
                   borderRadius: "10px",
-                  borderColor: "rgb(255,211,51)",
+                  borderColor: "white",
                   padding: "20px 50px",
                   minWidth: "300px",
+                  boxShadow: 3,
                 }}>
                 <Image src={product.image} alt={product.name} height={0} width={0} layout="responsive" objectFit="contain" />
               </Box>
@@ -95,7 +96,7 @@ export default function Details() {
                   marginTop: "10px",
                   borderRadius: "5px",
                   backgroundColor: "rgb(255,211,51)",
-                  boxShadow: 1,
+                  boxShadow: 3,
                 }}>
                 <Typography variant="h6" align="center" sx={{ paddingTop: "5px", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)", color:"white" }}>
                   {product.name}
