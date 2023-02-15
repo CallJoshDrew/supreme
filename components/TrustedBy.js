@@ -37,13 +37,13 @@ export default function TrustedBy() {
     },
   };
   return (
-    <Container sx={{ padding: "30px 0", overflowX: "hidden",}}>
+    <Container maxWidth="xl" disableGutters sx={{ padding: "30px 0 0", overflowX: "hidden",}}>
       <Grid
         container
         direction="column"
         justifyContent="center"
         alignItems="center"
-        sx={{ marginBottom: "20px", backgroundColor: "rgb(255,211,51)", boxShadow: "3", borderRadius: "5px", overflow: "hidden" }}>
+        sx={{ marginBottom: "20px", backgroundColor: "rgb(255,211,51)",padding:"30px 10px 20px", boxShadow: "3", overflow: "hidden" }}>
           <motion.div initial={"offscreen"} whileInView={"onscreen"} viewport={{once:false, amount:0.9}} transition={{staggerChildren:0.5}}>
 
           
@@ -55,7 +55,6 @@ export default function TrustedBy() {
               color: "white",
               fontWeight: "bold",
               textAlign: "center",
-              padding: "30px 0 0",
               textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
             }}>
             TRUSTED BY
@@ -69,7 +68,6 @@ export default function TrustedBy() {
               color: "#152934",
               fontWeight: "bold",
               textAlign: "center",
-              padding: "0 0 20px",
               textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
             }}
             gutterBottom>
@@ -77,7 +75,7 @@ export default function TrustedBy() {
           </Typography>
         </motion.div></motion.div>
       </Grid>
-      <Grid container justifyContent="center" alignItems="center" sx={{ boxShadow: "3", borderRadius: "5px" }}>
+      <Grid container justifyContent="center" alignItems="center" >
         <Grid item xs={6} md={3}>
           <Box display="flex" justifyContent="center" alignItems="center">
             <Box
