@@ -45,7 +45,7 @@ export default function Details() {
       opacity: 1,
       transition: {
         type: "linear",
-        duration: 2,
+        duration: 1,
       },
     },
   };
@@ -57,7 +57,7 @@ export default function Details() {
       transition: {
         type: "spring",
         bounce: 0.4,
-        duration: 2,
+        duration: 1,
       },
     },
   };

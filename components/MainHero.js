@@ -12,7 +12,7 @@ export default function MediaCard() {
       opacity: 1,
       transition: {
         type: "backInOut",
-        duration: 2,
+        duration: 1,
       },
     },
   };

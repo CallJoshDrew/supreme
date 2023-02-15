@@ -19,7 +19,7 @@ export default function TrustedBy() {
       opacity: 1,
       transition: {
         type: "linear",
-        duration: 2,
+        duration: 1,
       },
     },
   };
@@ -31,7 +31,7 @@ export default function TrustedBy() {
       transition: {
         type: "spring",
         bounce: 0.4,
-        duration: 4,
+        duration: 1,
       },
     },
   };
