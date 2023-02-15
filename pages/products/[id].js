@@ -115,7 +115,7 @@ export default function Details() {
               sx={{
                 marginTop: { xs: "30px", sm: "20px" },
                 padding: "20px 0 20px 30px",
-                boxShadow: 2,
+                boxShadow: { xs: 0, sm: 2 },
                 borderRadius: "5px",
               }}>
               <Box
@@ -169,7 +169,7 @@ export default function Details() {
             </Box>
           </Grid>
           <Grid item xs={12} sm={6} md={6}>
-            <Box sx={{ padding: "20px 0 20px 30px", boxShadow: 2, borderRadius: "5px", marginBottom:"25px"}}>
+            <Box sx={{ padding: "20px 0 20px 30px", marginBottom:"25px", borderRadius: '5px', boxShadow: { xs: 0, sm: 2 },}}>
               <Box
                 component="button"
                 sx={{
@@ -206,7 +206,7 @@ export default function Details() {
                 Model
               </Typography>
               {product.model.map((model, index) => (
-                <Typography sx={{ maxWidth: "100%" }} key={index}>
+                <Typography sx={{ maxWidth: "100%", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)" }} key={index}>
                   {model}
                 </Typography>
               ))}
@@ -215,7 +215,7 @@ export default function Details() {
           <Grid item xs={12} sm={12} align="center">
             <Button
               variant="contained"
-              sx={{ boxShadow: 2, color: "white", margin: "12px 0 4px", padding: "10px 20px", fontWeight: "800" }}
+              sx={{ boxShadow: 2, color: "white", margin: "12px 0 4px", padding: "10px 20px", fontWeight: "800", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)" }}
               endIcon={<ShareIcon />}
               href={`https://api.whatsapp.com/send?text=https://supreme-evershine.com/products/${encodeURIComponent(product.link)}`}
               color="info"

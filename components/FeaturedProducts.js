@@ -5,6 +5,7 @@ import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
+import { tabsClasses } from '@mui/material/Tabs';
 import {
   Container,
   ThemeProvider,
@@ -26,7 +27,7 @@ let theme = createTheme({
             border: 0,
             "&:hover": {
               border: "2px solid rgb(255,211,51)",
-              borderRadius: "15px",
+              borderRadius: "5px",
               color: "$444444",
             },
           },
@@ -37,7 +38,7 @@ let theme = createTheme({
               color: "white",
               backgroundColor: "rgb(255,211,51)",
               border: "1px solid rgb(255,211,51)",
-              borderRadius: "15px",
+              borderRadius: "5px",
             },
           },
         },
@@ -108,13 +109,18 @@ export default function FeaturedProducts({urlBack, productTab}) {
               <ThemeProvider theme={theme}>
                 <TabList
                   onChange={handleChange}
-                  aria-label="lab API tabs example"
+                  aria-label="lab API tabs"
                   variant="scrollable"
                   scrollButtons
                   allowScrollButtonsMobile
                   TabIndicatorProps={{
                     style: {
                       backgroundColor: "transparent",
+                    },
+                  }}
+                  sx={{
+                    [`& .${tabsClasses.scrollButtons}`]: {
+                      '&.Mui-disabled': { opacity: 0.2 },
                     },
                   }}
                 >

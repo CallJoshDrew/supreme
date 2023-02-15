@@ -15,7 +15,7 @@ export default function TrustedBy() {
 
   return (
     <Container sx={{ margin: "30px 0px",  padding:"30px 0", }}>
-      <Grid container direction="column" justifyContent="center" alignItems="center" sx={{marginBottom: "20px", backgroundColor: "rgb(255,211,51)", boxShadow:"3", borderRadius: "15px", }}>
+      <Grid container direction="column" justifyContent="center" alignItems="center" sx={{marginBottom: "20px", backgroundColor: "rgb(255,211,51)", boxShadow:"3", borderRadius: "5px", }}>
         <Typography
           variant="h2"
           component="div"
@@ -32,7 +32,7 @@ export default function TrustedBy() {
           Happy clients since 2014!
         </Typography>
       </Grid>
-      <Grid container justifyContent="center" alignItems="center" sx={{  boxShadow:"3",borderRadius: "15px"}}>
+      <Grid container justifyContent="center" alignItems="center" sx={{  boxShadow:"3",borderRadius: "5px"}}>
         <Grid item xs={6} md={3}>
             <Box display="flex" justifyContent="center" alignItems="center">
               <Box
