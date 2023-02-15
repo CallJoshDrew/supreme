@@ -60,8 +60,8 @@ export default function Details() {
                 backgroundColor: "rgb(255,211,51)",
                 fontSize: "2rem",
                 cursor: "pointer",
-                boxShadow:"3",
-                borderRadius:"50%",
+                boxShadow: 2,
+                borderRadius: "50%",
               }}
             />
           </a>
@@ -71,148 +71,157 @@ export default function Details() {
             </Typography>
           </a> */}
         </Box>
-        <Grid
-          component="div"
-          sx={{
-            display: "flex",
-            justifyContent: "center",
-            gap: "50px",
-          }}>
-          <Grid container direction="row" justifyContent="space-around" alignItems="flex-start">
-            <Grid item xs={12} sm={6} md={5}>
-              <Box
+
+        <Grid container direction="row" alignItems="flex-start" spacing={3}>
+          <Grid item xs={12} sm={6} md={6}>
+            <Box
+              sx={{
+                border: 1,
+                borderRadius: "10px",
+                borderColor: "white",
+                padding: "20px",
+                maxHeight: "400px",
+                minWidth: "300px",
+                boxShadow: 2,
+              }}>
+              <Image src={product.image} alt={product.name} height={0} width={0} layout="responsive" objectFit="contain" />
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={6} md={6}>
+            <Box
+              sx={{
+                borderRadius: "5px",
+                backgroundColor: "rgb(255,211,51)",
+                boxShadow: 2,
+                padding: "10px 5px",
+              }}>
+              <Typography
+                variant="h6"
+                align="center"
+                sx={{ textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)", color: "white" }}>
+                {product.name}
+              </Typography>
+              <Typography
+                align="center"
                 sx={{
-                  border: 1,
-                  borderRadius: "10px",
-                  borderColor: "white",
-                  padding: "20px 50px",
-                  minWidth: "300px",
-                  boxShadow: 3,
+                  color: "#444444",
+                  fontWeight: "600",
+                  textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
                 }}>
-                <Image src={product.image} alt={product.name} height={0} width={0} layout="responsive" objectFit="contain"/>
-              </Box>
+                {product.description}
+              </Typography>
+            </Box>
+            <Box
+              sx={{
+                marginTop: { xs: "30px", sm: "20px" },
+                padding: "20px 0 20px 30px",
+                boxShadow: 2,
+                borderRadius: "5px",
+              }}>
               <Box
+                component="button"
                 sx={{
-                  marginTop: "10px",
+                  border: "1px solid rgb(255,211,51)",
                   borderRadius: "5px",
+                  boxShadow: 1,
+                  marginBottom: "20px",
+                  padding: "10px 15px",
                   backgroundColor: "rgb(255,211,51)",
-                  boxShadow: 3,
+                  fontSize: "1rem",
+                  fontWeight: "600",
+                  color: "white",
+                  textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
                 }}>
-                <Typography variant="h6" align="center" sx={{ paddingTop: "5px", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)", color:"white" }}>
-                  {product.name}
-                </Typography>
-                <Typography align="center" sx={{ paddingBottom: "5px", color: "#444444", fontWeight:"600", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)" }}>
-                  {product.description}
-                </Typography>
+                Features
               </Box>
-            </Grid>
-            <Grid item xs={12} sm={5} md={5}>
-              <Box
-                sx={{
-                  flex: 1,
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "50px",
-                }}>
-                <Box
-                  sx={{
-                    marginTop: { xs: "50px", sm: "10px" },
-                    paddingLeft: "30px",
-                  }}>
-                  <Box
-                    component="button"
-                    sx={{
-                      border: "1px solid rgb(255,211,51)",
-                      borderRadius: "5px",
-                      boxShadow: 1,
-                      marginBottom: "20px",
-                      padding: "10px 15px",
-                      backgroundColor: "rgb(255,211,51)",
-                      fontSize: "1rem",
-                      fontWeight: "600",
-                      color: "white",
-                      textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"
-                    }}>
-                    Features
-                  </Box>
-                  {product.features.map((feature, index) => (
-                    <Typography gutterBottom key={index}>
-                      - {feature}
+              {product.features.map((feature, index) => (
+                <Typography gutterBottom key={index}>
+                  - {feature}
+                </Typography>
+              ))}
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={6} md={6}>
+            <Box
+              sx={{
+                backgroundColor: "rgb(255,211,51)",
+                borderRadius: "5px",
+                border: "1px",
+                padding: "20px",
+                boxShadow: 2,
+              }}>
+              <Typography
+                variant="h6"
+                gutterBottom
+                color="white"
+                sx={{ textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)" }}>
+                Technical Information
+              </Typography>
+              <Grid container spacing={1}>
+                {Object.entries(product.technical[0]).map(([key, value], index) => (
+                  <Grid item xs={12} key={index}>
+                    <Typography sx={{ textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)" }}>
+                      {key} : {value}
                     </Typography>
-                  ))}
-                </Box>
-                <Box
-                  sx={{
-                    backgroundColor:"rgb(255,211,51)",
-                    borderRadius: "5px",
-                    border: "1px",
-                    padding: "20px",
-                    boxShadow: 1,
-                  }}>
-                  <Typography variant="h6" gutterBottom color="white" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}>
-                    Technical Information
-                  </Typography>
-                  <Grid container spacing={1}>
-                    {Object.entries(product.technical[0]).map(([key, value], index) => (
-                      <Grid item xs={12} key={index}>
-                        <Typography sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}>
-                          {key} : {value}
-                        </Typography>
-                      </Grid>
-                    ))}
                   </Grid>
-                </Box>
-                <Box sx={{ paddingLeft: "30px" }}>
-                <Box
-                    component="button"
-                    sx={{
-                      border: "1px solid rgb(255,211,51)",
-                      borderRadius: "5px",
-                      boxShadow: 1,
-                      marginBottom: "20px",
-                      padding: "10px 15px",
-                      backgroundColor: "rgb(255,211,51)",
-                      fontSize: "1rem",
-                      fontWeight: "600",
-                      color: "white",
-                      textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"
-                    }}>
-                    Applications
-                  </Box>
-                  {product.applications.map((application, index) => (
-                    <Typography key={index}>{application}</Typography>
-                  ))}
-                </Box>
-                <Box
-                  sx={{
-                    backgroundColor:"rgb(255,211,51)",
-                    borderRadius: "5px",
-                    border: "1px",
-                    padding: "20px",
-                    boxShadow: 1,
-                  }}>
-                  <Typography variant="h6" gutterBottom color="white" sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}>
-                    Model
-                  </Typography>
-                  {product.model.map((model, index) => (
-                    <Typography sx={{ maxWidth: "100%"}} key={index}>
-                      {model}
-                    </Typography>
-                  ))}
-                </Box>
+                ))}
+              </Grid>
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={6} md={6}>
+            <Box sx={{ padding: "20px 0 20px 30px", boxShadow: 2, borderRadius: "5px", marginBottom:"25px"}}>
+              <Box
+                component="button"
+                sx={{
+                  border: "1px solid rgb(255,211,51)",
+                  borderRadius: "5px",
+                  boxShadow: 1,
+                  marginBottom: "20px",
+                  padding: "10px 15px",
+                  backgroundColor: "rgb(255,211,51)",
+                  fontSize: "1rem",
+                  fontWeight: "600",
+                  color: "white",
+                  textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
+                }}>
+                Applications
               </Box>
-            </Grid>
-            <Grid item xs={12} align="center">
-              <Button
-                variant="contained"
-                sx={{ boxShadow: '3',color: "white", margin: "12px 0 4px", padding: "10px 20px", fontWeight: "800",}}
-                endIcon={<ShareIcon />}
-                href={`https://api.whatsapp.com/send?text=https://supreme-evershine.com/products/${encodeURIComponent(product.link)}`}
-                color="info"
-                target="_blank">
-                Share
-              </Button>
-            </Grid>
+              {product.applications.map((application, index) => (
+                <Typography key={index}>{application}</Typography>
+              ))}
+            </Box>
+            <Box
+              sx={{
+                backgroundColor: "rgb(255,211,51)",
+                borderRadius: "5px",
+                border: "1px",
+                padding: "20px",
+                boxShadow: 2,
+              }}>
+              <Typography
+                variant="h6"
+                gutterBottom
+                color="white"
+                sx={{ textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)" }}>
+                Model
+              </Typography>
+              {product.model.map((model, index) => (
+                <Typography sx={{ maxWidth: "100%" }} key={index}>
+                  {model}
+                </Typography>
+              ))}
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={12} align="center">
+            <Button
+              variant="contained"
+              sx={{ boxShadow: 2, color: "white", margin: "12px 0 4px", padding: "10px 20px", fontWeight: "800" }}
+              endIcon={<ShareIcon />}
+              href={`https://api.whatsapp.com/send?text=https://supreme-evershine.com/products/${encodeURIComponent(product.link)}`}
+              color="info"
+              target="_blank">
+              Share
+            </Button>
           </Grid>
         </Grid>
       </ThemeProvider>

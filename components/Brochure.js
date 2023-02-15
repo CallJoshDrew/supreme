@@ -19,14 +19,12 @@ export default function Brochure() {
             borderColor: "#0099b3",
             borderRadius: "5px",
             padding: { xs: "30px 25px 10px", md: "25px" },
-          }}
-        >
+          }}>
           <Grid>
             <Box
               sx={{
                 position: "relative",
-              }}
-            >
+              }}>
               <Box
                 variant="h2"
                 sx={{
@@ -38,36 +36,37 @@ export default function Brochure() {
                   position: "absolute",
                   top: { xs: -60, md: -55 },
                   left: { xs: -10, md: 0 },
-                }}
-              >
+                }}>
                 e-Brochure
               </Box>
             </Box>
           </Grid>
 
-          <Grid
-            container
-            direction="row"
-            justifyContent="flex-start"
-            alignItems="center"
-            spacing={3}
-          >
+          <Grid container direction="row" justifyContent="flex-start" alignItems="center" spacing={3}>
             <Grid
               item
               xs={8}
-              md={3}
-              component="img"
-              alt="e-Brochure"
-              rel="noopener"
-              src={eBrochure.src}
-            />
+              sm={4}
+              md={3}>
+              <Box
+                component="img"
+                sx={{
+                  minHeight: 260,
+                  minWwidth: 300,
+                  maxHeight: { xs: 300, sm: 300, md: 167 },
+                  maxWidth: { xs: 350, sm: 350, md: 250 },
+                  boxShadow: "3", borderRadius: "10px"
+                }}
+                rel="noopener"
+                alt="Supreme Evershine e-Brochure 2022"
+                src={eBrochure.src}
+              />
+            </Grid>
 
-            <Grid item xs={12} md={9}>
+            <Grid item xs={12} sm={8} md={9}>
               <Typography component="div" align="left" variant="h6">
-                Our e-Brochure Product Catalogue 2022 is out! Find out more
-                about our products and what we offer in our latest e-Brochure.
-                Simply click below button (either Email or Whatsapp) and send us
-                your details and then we will send you the FREE copy of our
+                Our e-Brochure Product Catalogue 2022 is out! Find out more about our products and what we offer in our latest e-Brochure.
+                Simply click below button (either Email or Whatsapp) and send us your details and then we will send you the FREE copy of our
                 brochure in PDF format.
               </Typography>
               <Button
@@ -81,8 +80,7 @@ export default function Brochure() {
                   marginRight: 2,
                   p: 1.5,
                   textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
-                }}
-              >
+                }}>
                 Email
               </Button>
               <Button
@@ -95,8 +93,7 @@ export default function Brochure() {
                   my: 2,
                   p: 1.5,
                   textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
-                }}
-              >
+                }}>
                 Whatsapp
               </Button>
             </Grid>
