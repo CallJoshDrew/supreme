@@ -21,7 +21,7 @@ export default function Footer() {
         sx={{
           backgroundColor: "rgb(255,211,51)",
           padding: "50px 30px",
-          marginTop: "80px",
+          marginTop: "50px",
         }}
       >
         <Typography variant="h2" gutterBottom sx={{textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}>

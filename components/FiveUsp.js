@@ -29,48 +29,48 @@ export default function FiveUsp() {
         x: 0,
         transition: {
           type: "spring",
+          stiffness: 20,
           duration: 2,
-          bounce: 0.5,
         },
       });
       animation2.start({
         x: 0,
         transition: {
           type: "spring",
+          stiffness: 30,
           duration: 2.5,
-          bounce: 0.5,
         },
       });
       animation3.start({
         x: 0,
         transition: {
           type: "spring",
+          stiffness: 30,
           duration: 3,
-          bounce: 0.5,
         },
       });
       animation4.start({
         x: 0,
         transition: {
           type: "spring",
+          stiffness: 30,
           duration: 3.5,
-          bounce: 0.5,
         },
       });
       animation5.start({
         x: 0,
         transition: {
           type: "spring",
+          stiffness: 30,
           duration: 4,
-          bounce: 0.5,
         },
       });
     }
     if (!inView) {
       animation1.start({ x: "-100vw" });
-      animation2.start({ x: "300vw" });
+      animation2.start({ x: "200vw" });
       animation3.start({ x: "-100vw" });
-      animation4.start({ x: "300vw" });
+      animation4.start({ x: "200vw" });
       animation5.start({ x: "-100vw" });
     }
   }, [inView, animation1, animation2, animation3, animation4, animation5]);
@@ -90,9 +90,9 @@ export default function FiveUsp() {
           // padding: "30px",
         }}>
         <Box ref={ref}>
-          <Grid container direction="row" alignItems="center"alignContent='center' align='center' spacing={2.5}>
-            <Grid item xs={12} sm={6} md={6}>
-              <motion.div animate={animation1}>
+          <Grid container direction="row" alignItems="center" alignContent='center' align='center' spacing={1} sx={{ overflowX: "hidden", minHeight:{xs:"760px", sm:"420px"}}}>
+            <Grid item xs={12} sm={6} md={6} >
+              <motion.div animate={animation1} >
                 <Card
                   sx={{
                     display: "flex",
@@ -122,7 +122,7 @@ export default function FiveUsp() {
                 </Card>
               </motion.div>
             </Grid>
-            <Grid item xs={12} sm={6} md={6}>
+            <Grid item xs={12} sm={6} md={6} >
               <motion.div animate={animation2}>
                 <Card
                   sx={{
@@ -153,8 +153,8 @@ export default function FiveUsp() {
                 </Card>
               </motion.div>
             </Grid>
-            <Grid item xs={12} sm={6} md={6}>
-              <motion.div animate={animation3}>
+            <Grid item xs={12} sm={6} md={6} >
+              <motion.div animate={animation3} >
                 <Card
                   sx={{
                     display: "flex",
@@ -184,8 +184,8 @@ export default function FiveUsp() {
                 </Card>
               </motion.div>
             </Grid>
-            <Grid item xs={12} sm={6} md={6}>
-              <motion.div animate={animation4}>
+            <Grid item xs={12} sm={6} md={6} >
+              <motion.div animate={animation4} >
                 <Card
                   sx={{
                     display: "flex",
@@ -215,8 +215,8 @@ export default function FiveUsp() {
                 </Card>
               </motion.div>
             </Grid>
-            <Grid item xs={12} sm={7} md={7}>
-              <motion.div animate={animation5}>
+            <Grid item xs={12} sm={7} md={7} >
+              <motion.div animate={animation5} >
                 <Card
                   sx={{
                     display: "flex",

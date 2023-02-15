@@ -3,8 +3,20 @@ import CardMedia from "@mui/material/CardMedia";
 import Hero from "../public/pic2.jpg";
 import Typography from "@mui/material/Typography";
 import { Box, Container } from "@mui/material";
+import { motion, Variants } from "framer-motion";
 
 export default function MediaCard() {
+  const textAnimate = {
+    offscreen: { opacity: 0 },
+    onscreen: {
+      delay: 6,
+      opacity: 1,
+      transition: {
+        type: "backInOut",
+        duration: 2,
+      },
+    },
+  };
   return (
     <Container
       maxWidth="md"
@@ -17,25 +29,31 @@ export default function MediaCard() {
         marginTop: { xs: "60px", sm: "50px", md: "70px" },
       }}>
       <CardMedia component="img" height="400px" image={Hero.src} alt="Professional" />
-      <Typography
-        variant="h4"
+      <Box
         sx={{
-          padding: "20px 30px",
-          fontWeight: 700,
-          letterSpacing: ".1rem",
-          color: "white",
-          textDecoration: "none",
           backgroundColor: "rgb(255,211,51)",
           width: "100%",
-          textAlign: "center",
-          fontFamily: "Playfair Display, serif",
           boxShadow: "2",
           borderBottomRightRadius: "5px",
           borderBottomLeftRadius: "5px",
-          textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
+          overflow: "hidden",
         }}>
-        Together We Help, We Grow, We Prosper!
-      </Typography>
+        <motion.div variants={textAnimate} initial={"offscreen"} whileInView={"onscreen"} viewport={{ once: false, amount: 0.9 }}>
+          <Typography
+            variant="h4"
+            sx={{
+              padding: "20px 30px",
+              fontWeight: 700,
+              letterSpacing: ".1rem",
+              color: "white",
+              textAlign: "center",
+              fontFamily: "Playfair Display, serif",
+              textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
+            }}>
+            Together We Help, We Grow, We Prosper!
+          </Typography>
+        </motion.div>
+      </Box>
       <Box sx={{ marginTop: { xs: "30px", sm: "40px" }, height: { xs: "230px", sm: "510px" }, boxShadow: "3" }}>
         {/* <iframe
           width="100%"
