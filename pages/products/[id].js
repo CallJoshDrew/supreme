@@ -146,7 +146,7 @@ export default function Details() {
               <motion.div
                 initial={"offscreen"}
                 whileInView={"onscreen"}
-                viewport={{ once: true, amount: 0.9 }}
+                viewport={{ once: true, amount: 0.2 }}
                 transition={{ staggerChildren: 0.5 }}>
                 <motion.div variants={textAnimate}>
                   <Box
@@ -208,7 +208,7 @@ export default function Details() {
               <motion.div
                 initial={"offscreen"}
                 whileInView={"onscreen"}
-                viewport={{ once: true, amount: 0.9 }}
+                viewport={{ once: true, amount: 0.2 }}
                 transition={{ staggerChildren: 0.5 }}>
                 <motion.div variants={textAnimate}>
                   <Box

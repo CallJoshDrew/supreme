@@ -86,7 +86,6 @@ export default function FiveUsp() {
           flexWrap: "wrap",
           marginTop: "30px",
           // backgroundColor: "rgb(255,211,51)",
-          borderRadius: "20px",
           // padding: "30px",
         }}>
         <Box ref={ref}>
@@ -101,7 +100,7 @@ export default function FiveUsp() {
                     padding: "10px",
                     boxShadow: 2,
                     border: 0,
-                    borderRadius: "20px",
+                    borderRadius: "5px",
                   }}>
                   <Box
                     sx={{
@@ -132,7 +131,7 @@ export default function FiveUsp() {
                     padding: "10px",
                     boxShadow: 2,
                     border: 0,
-                    borderRadius: "20px",
+                    borderRadius: "5px",
                   }}>
                   <Box
                     sx={{
@@ -163,7 +162,7 @@ export default function FiveUsp() {
                     padding: "10px",
                     boxShadow: 2,
                     border: 0,
-                    borderRadius: "20px",
+                    borderRadius: "5px",
                   }}>
                   <Box
                     sx={{
@@ -194,7 +193,7 @@ export default function FiveUsp() {
                     padding: "10px",
                     boxShadow: 2,
                     border: 0,
-                    borderRadius: "20px",
+                    borderRadius: "5px",
                   }}>
                   <Box
                     sx={{
@@ -225,7 +224,7 @@ export default function FiveUsp() {
                     padding: "10px",
                     boxShadow: 2,
                     border: 0,
-                    borderRadius: "20px",
+                    borderRadius: "5px",
                   }}>
                   <Box
                     sx={{
