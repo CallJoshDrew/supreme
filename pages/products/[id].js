@@ -89,7 +89,7 @@ export default function Details() {
                   minWidth: "300px",
                   boxShadow: 3,
                 }}>
-                <Image src={product.image} alt={product.name} height={0} width={0} layout="responsive" objectFit="contain" />
+                <Image src={product.image} alt={product.name} height={0} width={0} layout="responsive" objectFit="contain"/>
               </Box>
               <Box
                 sx={{

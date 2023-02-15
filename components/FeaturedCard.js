@@ -22,7 +22,7 @@ export default function FeaturedCard(props) {
         borderColor: "rgb(255,211,51)",
         textAlign: "center",
       }}>
-      <CardMedia component="img" image={category.image} alt={category.alt} sx={{ minHeight: '150px',padding: "25px" }} />
+      <CardMedia component="img" image={category.image} alt={category.alt} sx={{ minHeight: '110px',padding: "20px" }} />
       <ThemeProvider theme={theme}>
         <Typography
           variant="subtitle2"
