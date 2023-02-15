@@ -112,7 +112,7 @@ export default function FiveUsp() {
                     }}>
                     <CallIcon sx={{ fontSize: "2.5rem", color: "rgb(255,211,51)" }} />
                   </Box>
-                  <Box sx={{ padding: "10px" }}>
+                  <Box sx={{ padding: "10px" }} align="left">
                     <Typography variant="h6" component="div">
                       Call Support
                     </Typography>
@@ -143,7 +143,7 @@ export default function FiveUsp() {
                     }}>
                     <HealthAndSafetyIcon sx={{ fontSize: "2.5rem", color: "rgb(255,211,51)" }} />
                   </Box>
-                  <Box sx={{ padding: "10px" }}>
+                  <Box sx={{ padding: "10px" }} align="left">
                     <Typography variant="h6" component="div">
                       Safety First
                     </Typography>
@@ -174,7 +174,7 @@ export default function FiveUsp() {
                     }}>
                     <FactoryIcon sx={{ fontSize: "2.5rem", color: "rgb(255,211,51)" }} />
                   </Box>
-                  <Box sx={{ padding: "10px" }}>
+                  <Box sx={{ padding: "10px" }} align="left">
                     <Typography variant="h5" component="div">
                       Industrial Products
                     </Typography>
@@ -205,7 +205,7 @@ export default function FiveUsp() {
                     }}>
                     <AssignmentIndIcon sx={{ fontSize: "2.5rem", color: "rgb(255,211,51)" }} />
                   </Box>
-                  <Box sx={{ padding: "10px" }}>
+                  <Box sx={{ padding: "10px" }} align="left">
                     <Typography variant="h5" component="div">
                       Professional Trained
                     </Typography>
@@ -236,7 +236,7 @@ export default function FiveUsp() {
                     }}>
                     <LocalFireDepartmentIcon sx={{ fontSize: "2.5rem", color: "rgb(255,211,51)" }} />
                   </Box>
-                  <Box sx={{ padding: "10px" }}>
+                  <Box sx={{ padding: "10px" }} align="left">
                     <Typography variant="h5" component="div">
                       Great Offer
                     </Typography>
