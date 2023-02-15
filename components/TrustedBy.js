@@ -16,7 +16,6 @@ export default function TrustedBy() {
   const textAnimate = {
     offscreen: {  opacity: 0 },
     onscreen: {
-      delay: 6,
       opacity: 1,
       transition: {
         type: "linear",
