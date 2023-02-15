@@ -90,7 +90,7 @@ export default function FiveUsp() {
           // padding: "30px",
         }}>
         <Box ref={ref}>
-          <Grid container direction="row" alignItems="center" alignContent='center' align='center' spacing={1} sx={{ overflowX: "hidden", minHeight:{xs:"720px", sm:"420px"}}}>
+          <Grid container direction="row" alignItems="center" alignContent='center' align='center' spacing={1} sx={{ overflowX: "hidden", minHeight:{xs:"600px", sm:"420px"}}}>
             <Grid item xs={12} sm={6} md={6} >
               <motion.div animate={animation1} >
                 <Card
