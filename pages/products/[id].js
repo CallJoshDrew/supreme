@@ -61,7 +61,7 @@ export default function Details() {
                 fontSize: "2rem",
                 cursor: "pointer",
                 boxShadow:"3",
-                borderRadius:"100%",
+                borderRadius:"50%",
               }}
             />
           </a>
