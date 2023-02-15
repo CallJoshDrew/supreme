@@ -35,6 +35,7 @@ export default function MediaCard() {
           width: "100%",
           textAlign: "center",
           fontFamily: "Playfair Display, serif",
+          boxShadow:"2",
           borderBottomRightRadius: "5px",
           borderBottomLeftRadius: "5px",
           textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
@@ -42,7 +43,7 @@ export default function MediaCard() {
       >
         Together We Help, We Grow, We Prosper!
       </Typography>
-      <Box sx={{ marginTop: {xs:'30px', sm:'40px'}, height: {xs: '230px', sm: '510px'} }}>
+      <Box sx={{ marginTop: {xs:'30px', sm:'40px'}, height: {xs: '230px', sm: '510px'}, boxShadow:"3", }}>
         <iframe
           width="100%"
           height="100%"

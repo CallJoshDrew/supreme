@@ -14,26 +14,25 @@ import KLK from "../public/clients/KLK.png";
 export default function TrustedBy() {
 
   return (
-    <Container sx={{ margin: "30px 0", backgroundColor: "#f5f5f5", padding:"30px 0" }}>
-      <Grid container direction="column" justifyContent="center" alignItems="center"
-      >
+    <Container sx={{ margin: "30px 0px",  padding:"30px 0", }}>
+      <Grid container direction="column" justifyContent="center" alignItems="center" sx={{marginBottom: "20px", backgroundColor: "rgb(255,211,51)", boxShadow:"3", borderRadius: "15px", }}>
         <Typography
           variant="h2"
           component="div"
-          sx={{ color: "rgb(255,211,51)", fontWeight: "bold", textAlign:"center", padding:"50px 0 0", }}
+          sx={{ color:"white", fontWeight: "bold", textAlign:"center", padding:"30px 0 0",textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)" }}
         >
           TRUSTED BY
         </Typography>
         <Typography
           variant="h4"
           component="div"
-          sx={{ color: "#152934", fontWeight: "bold", textAlign:"center", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}
+          sx={{ color: "#152934", fontWeight: "bold", textAlign:"center", padding:"0 0 20px", textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)"}}
           gutterBottom
         >
           Happy clients since 2014!
         </Typography>
       </Grid>
-      <Grid container justifyContent="center" alignItems="center">
+      <Grid container justifyContent="center" alignItems="center" sx={{  boxShadow:"3",borderRadius: "15px"}}>
         <Grid item xs={6} md={3}>
             <Box display="flex" justifyContent="center" alignItems="center">
               <Box
