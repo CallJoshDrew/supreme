@@ -1342,8 +1342,7 @@ export const products = [
       "- LD1, LD2, LD3, LD4",
       "Controller:",
       "- R3FC, R3FSC, R5FC, R5FTS, CV6F, CV6FS, CV8F, CV8FS, CV10F",
-      "Tray Rectangular/Fines Removal/Bias/Conical/Tubular",
-      "(Standard, Wide, Long & Medium):",
+      "Tray Rectangular/Fines Removal/Bias/Conical/Tubular (Standard, Wide, Long & Medium):",
       "- LD1, LD2, LD3, LD4",
     ],
     urlBack: "Featured Products",
@@ -1384,10 +1383,11 @@ export const products = [
       "- Animal Feed",
     ],
     model: [
-      "Plate Magnet: EPM10X7, EPM12X7, EPM 14X7, EPM16X7, EPM18X7",
-      "Grate/Grid Magnet: Open Mounted Brackets, Mounted within a Housing",
-      "Chute Magnet, Bullet Magnet, Hump Magnet",
-      "Magnetic Ferrous Trap/Liquid Filter"
+      "Plate Magnet:",
+      "- EPM10X7, EPM12X7, EPM 14X7, EPM16X7, EPM18X7",
+      "Grate/Grid Magnet:",
+      "- Open Mounted Brackets, Mounted within a Housing",
+      "Chute Magnet, Bullet Magnet, Hump Magnet, Magnetic Ferrous Trap/Liquid Filter"
     ],
     urlBack: "Featured Products",
     productTab: "7",
