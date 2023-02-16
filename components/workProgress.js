@@ -10,6 +10,8 @@ import CancelIcon from "@mui/icons-material/Cancel";
 import InfoIcon from "@mui/icons-material/Info";
 import Image from "next/image";
 
+import { motion, Variants } from "framer-motion";
+
 function WorkProgress() {
   let theme = createTheme();
   theme = responsiveFontSizes(theme);
@@ -36,6 +38,29 @@ function WorkProgress() {
         productTab,
       },
     });
+  };
+  
+  const textAnimate = {
+    offscreen: { y: -100, opacity: 0 },
+    onscreen: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        type: "spring",
+        bounce: 0.4,
+        duration: 2,
+      },
+    },
+  };
+  const phaseAnimate = {
+    offscreen: { opacity: 0 },
+    onscreen: {
+      opacity: 1,
+      transition: {
+        type: "linear",
+        duration: 2,
+      },
+    },
   };
   return (
     <Container maxWidth="md" sx={{ padding: { xs: "20px 15px", sm: "10px 15px" } }}>
@@ -77,7 +102,7 @@ function WorkProgress() {
                 minWidth: "300px",
                 boxShadow: 2,
               }}>
-              <Image src={product.image} alt={product.name} height={200} width={300}  objectFit="contain"/>
+              <Image src={product.image} alt={product.name} height={200} width={300} objectFit="contain" />
             </Box>
           </Grid>
           <Grid item xs={12} sm={6} md={6}>
@@ -88,32 +113,46 @@ function WorkProgress() {
                 boxShadow: 2,
                 padding: "10px 5px",
               }}>
-              <Typography
-                variant="h6"
-                align="center"
-                sx={{ textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)", color: "white" }}>
-                {product.name}
-              </Typography>
-              <Typography
-                align="center"
-                sx={{
-                  color: "#444444",
-                  fontWeight: "600",
-                  textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
-                }}>
-                Category: {product.brand}
-              </Typography>{" "}
+              <motion.div
+                initial={"offscreen"}
+                whileInView={"onscreen"}
+                viewport={{ once: false, amount: 0.9 }}
+                transition={{ staggerChildren: 0.5 }}>
+                <motion.div variants={textAnimate}>
+                  <Typography
+                    variant="h6"
+                    align="center"
+                    sx={{ textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)", color: "white" }}>
+                    {product.name}
+                  </Typography>
+                </motion.div>
+                <motion.div variants={phaseAnimate}>
+                  <Typography
+                    align="center"
+                    sx={{
+                      color: "#444444",
+                      fontWeight: "600",
+                      textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
+                    }}>
+                    Category: {product.brand}
+                  </Typography>
+                </motion.div>
+              </motion.div>
             </Box>
           </Grid>
         </Grid>
-        <Grid container alignItems="center" sx={{ boxShadow:2, marginTop:"10px", borderRadius:'5px'}}>
-          <Grid item xs={3} sm={2}align="center">
-            <InfoIcon fontSize="large"/>
+        <Grid container alignItems="center" sx={{ boxShadow: 2, marginTop: "10px", borderRadius: "5px" }}>
+          <Grid item xs={3} sm={2} align="center">
+            <InfoIcon fontSize="large" />
           </Grid>
           <Grid item xs={9} sm={10}>
             <Typography
               align="left"
-              sx={{ textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)", marginTop:"5px", padding: {xs:"15px 10px 15px 0", sm:"15px 50px 15px 5px"} }}>
+              sx={{
+                textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
+                marginTop: "5px",
+                padding: { xs: "15px 10px 15px 0", sm: "15px 50px 15px 5px" },
+              }}>
               At the moment, no product details are available. Please check back later as we will be updating them.
             </Typography>
           </Grid>
