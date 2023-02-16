@@ -1,6 +1,5 @@
 import { products } from "../../src/dataDetails";
 import ShareIcon from "@mui/icons-material/Share";
-import CircularProgress from "@mui/material/CircularProgress";
 import CancelIcon from "@mui/icons-material/Cancel";
 import Image from "next/image";
 
@@ -12,6 +11,7 @@ import { Grid } from "@material-ui/core";
 import { createTheme, ThemeProvider } from "@material-ui/core/styles";
 import { responsiveFontSizes } from "@mui/material";
 import { motion, Variants } from "framer-motion";
+import WorkProgress from "../../components/workProgress";
 
 export default function Details() {
   let theme = createTheme();
@@ -22,11 +22,7 @@ export default function Details() {
   const product = products.find((p) => p.name === id);
 
   if (!product) {
-    return (
-      <Box sx={{ position: "fixed", top: "45%", left: "45%" }}>
-        <CircularProgress color="info" />
-      </Box>
-    );
+    return <WorkProgress />;
   }
   const urlBack = product.urlBack;
   const productTab = product.productTab;
@@ -81,20 +77,14 @@ export default function Details() {
               sx={{
                 color: "white",
                 backgroundColor: "rgb(255,211,51)",
-                fontSize: "2rem",
+                fontSize: { xs: "2rem", sm: "2.7rem" },
                 cursor: "pointer",
                 boxShadow: 2,
                 borderRadius: "50%",
               }}
             />
           </a>
-          {/* <a onClick={handleBack}>
-            <Typography variant="h6" sx={{ cursor: "pointer" }} >
-              Back
-            </Typography>
-          </a> */}
         </Box>
-
         <Grid container direction="row" alignItems="flex-start" spacing={3}>
           <Grid item xs={12} sm={6} md={6}>
             <Box
@@ -203,7 +193,14 @@ export default function Details() {
             </Box>
           </Grid>
           <Grid item xs={12} sm={6} md={6}>
-            <Box sx={{ padding: "20px 0 20px 30px", marginBottom: "25px", borderRadius: "5px", boxShadow: { xs: 0, sm: 2 },overflowX: "hidden", }}>
+            <Box
+              sx={{
+                padding: "20px 0 20px 30px",
+                marginBottom: "25px",
+                borderRadius: "5px",
+                boxShadow: { xs: 0, sm: 2 },
+                overflowX: "hidden",
+              }}>
               <motion.div
                 initial={"offscreen"}
                 whileInView={"onscreen"}
@@ -264,12 +261,19 @@ export default function Details() {
               sx={{
                 boxShadow: 2,
                 color: "white",
+                fontSize: "1rem",
                 margin: "12px 0 4px",
                 padding: "10px 20px",
                 fontWeight: "800",
                 textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
               }}
-              endIcon={<ShareIcon />}
+              endIcon={
+                <ShareIcon
+                  sx={{
+                    fontSize: { xs: "1rem", sm: "2.7rem" },
+                  }}
+                />
+              }
               href={`https://api.whatsapp.com/send?text=https://supreme-evershine.com/products/${encodeURIComponent(product.link)}`}
               color="info"
               target="_blank">
