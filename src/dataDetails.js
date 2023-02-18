@@ -1443,7 +1443,7 @@ export const products = [
     ],
     technical: [
       {
-        "Size": '1/4" ~ 2",',
+        "Size": '1/4" ~ 2"',
         "Material": "Stainless Steel AISI-316, AISI-304, Carbon Steel S-20C",
         "Pipe Thread": "ANSI B2.1, BS21 1973, DIN 259/2999, ISO 228",
         "Casting": "Investment Casting Body and Inscrewed",
@@ -1474,6 +1474,130 @@ export const products = [
       '2-1/2"',
        '3"',
        '4"',
+    ],
+    urlBack: "Categories",
+    productTab: "1",
+  },
+  {
+    id: 37,
+    name: "GLOVE VALVE",
+    brand: "VALVE",
+    link: "GLOVE%20VALVE",
+    image: "/valve/GloveValve.png",
+    description: "CAST IRON / CAST STEEL FLANGE END",
+    features: [
+      "Straight-way or Angle Pattern with Straight Seat",
+      "Compact Bonnet",
+      "Non-rising Handwheel",
+      "Free from Asbestos, PCB and CFC",
+      "Maintenance-free sStem Sealed by Bellows and Back-up Gland Packaging",
+    ],
+    technical: [
+      {
+        "Size": '1/4" ~ 2"',
+        "Material": "Cast Iron, Cast Steel, Forged Steel",
+        "Temperature": "-10°C up to +350°C",
+        "Max Operating Pressure": "Up to 25 Bar",
+      },
+    ],
+    applications: [
+      "- Hot-water Heating Systems",
+      "- Heat Transfer System",
+      "- Pressure Vessek Equipment",
+      "- Steam Boiler Installations",
+    ],
+    model: [
+      "PN16",
+      '- 1" ~ 4"',
+      "PN40",
+      '- 1½" ~ 2"',
+      "Class 800",
+      '- 1½" ~ 2"',
+    ],
+    urlBack: "Categories",
+    productTab: "1",
+  },
+  {
+    id: 37,
+    name: "BUTTERFLY VALVE",
+    brand: "VALVE",
+    link: "BUTTERFLY%20VALVE",
+    image: "/valve/ButterflyValve.png",
+    description: "CAST IRON / STAINLESS STEEL",
+    features: [
+      "O.E.M.",
+      "Mounting Plate Meeting the ISO 5211 Standards",
+      "Contains No Asbestos, PCB, CFC and Substances Impariging Paint Wetting",
+      "Valve Comply with the Requirements of the REACH Regulation 1970/2006",
+    ],
+    technical: [
+      {
+        "Size": '1/4" ~ 2"',
+        "Type": 'Wafer, High Performance',
+        "Material": "Cast Iron, Cast Steel",
+        "Temperature": "-10°C up to +110°C",
+        "Allowable Pressure(PS)": "10 Bar ~ 16 Bar",
+      },
+    ],
+    applications: [
+      "- Water Treatment, Munciliple Engineer, Pharmacy, Auto Industry",
+    ],
+    model: [
+      '- 2" ~ 6"',
+    ],
+    urlBack: "Categories",
+    productTab: "1",
+  },
+  {
+    id: 38,
+    name: "BLOW DOWN VALVE",
+    brand: "VALVE",
+    link: "BLOW%20DOWN%20VALVE",
+    image: "/valve/BlowDownValve.png",
+    description: "GESTRA Steam Systems",
+    features: [
+      "Straight-through Valves with Rapid-closing Mechanism and Diaphragm Actuator Designed with Flanged Ends or Butt-weld Ends.",
+    ],
+    technical: [
+      {
+        "Size": '1½" ~ 2"',
+        "Type": '(M)PA 46, (M)PA 47, (M)PA 110',
+        "Max Temperature": '120°C ~ 250°C',
+        "Material": 'Body(Forged Steel), Stem & Plug(Hardened Stainless Steel)',
+        "Pressure Rating": "PN40(Class 150, 300), PN63(Class 400), PN250(Class 900/1500)",
+      },
+    ],
+    applications: [
+      "- Boiler and Compressor Systems",
+    ],
+    model: [
+      '- 1½" ~ 2"',
+    ],
+    urlBack: "Categories",
+    productTab: "1",
+  },
+  {
+    id: 39,
+    name: "NEEDLE VALVE 316",
+    brand: "VALVE",
+    link: "NEEDLE%20VALVE%20316",
+    image: "/valve/NeedleValve.png",
+    description: "CARBON STEEL",
+    features: [
+      "Straight-through Valves with Rapid-closing Mechanism and Diaphragm Actuator Designed with Flanged Ends or Butt-weld Ends.",
+    ],
+    technical: [
+      {
+        "Material": 'Carbon Steel',
+        "Connection Threads": 'ANSI B2.1, BS21, DIN',
+        "Working Pressure": '6000 PSI, Option(10,000 PSI)',
+      },
+    ],
+    applications: [
+      "- Power Plants, Water Distribution Systems, Automated Combustion Constrol Systems",
+    ],
+    model: [
+      '- ¼" ~ 1"',
     ],
     urlBack: "Categories",
     productTab: "1",

@@ -6,31 +6,31 @@
       {
         "id": 1,
         "name": "BALL VALVE",
-        "alt": "1PC / 3PC BODY BALL VALVE",
+        "alt": "1 ~ 3-PC BODY SCREW END",
         "image": "../valve/BallValve3.png"
       },
       {
         "id": 2,
         "name": "GLOVE VALVE",
-        "alt": "CAST IRON CAST STEEL FLANGE END",
+        "alt": "CAST IRON / CAST STEEL FLANGE END",
         "image": "../valve/GloveValve.png"
       },
       {
         "id": 3,
-        "name": "BUTTERFLY VALVE DISC",
+        "name": "BUTTERFLY VALVE",
         "alt": "CAST IRON / STAINLESS STEEL",
         "image": "../valve/ButterflyValve.png"
       },
       {
         "id": 4,
         "name": "BLOW DOWN VALVE",
-        "alt": "BLOW DOWN VALVE",
+        "alt": "GESTRA Steam Systems",
         "image": "../valve/BlowDownValve.png"
       },
       {
         "id": 5,
         "name": "NEEDLE VALVE 316",
-        "alt": "STAINLESS STEEL / CARBON STEEL",
+        "alt": "CARBON STEEL",
         "image": "../valve/NeedleValve.png"
       }
     ]
