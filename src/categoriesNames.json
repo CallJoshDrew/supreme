@@ -41,8 +41,8 @@
     "categories": [
       {
         "id": 1,
-        "name": "SINGLE DOORSWING",
-        "alt": "WAFER TYPE CHECK VALVE",
+        "name": "SINGLE DOOR",
+        "alt": "CAST IRON CHECK VALVE",
         "image": "../checkvalve/SingleDoorSwing.png"
       },
       {
@@ -53,8 +53,8 @@
       },
       {
         "id": 3,
-        "name": "SWING CHECK VALVE",
-        "alt": "STAINLESS STEEL 10K/150LBS FLANGE END PN16",
+        "name": "SWING CHECK VALVE 10K",
+        "alt": "150LBS FLANGE END",
         "image": "../checkvalve/Swing.png"
       },
       {
@@ -66,7 +66,7 @@
       {
         "id": 5,
         "name": "DISCO CHECK VALVE",
-        "alt": "STAINLESS STEEL WAFER TYPE",
+        "alt": "WAFER TYPE LIFT CHECK VALVE",
         "image": "../checkvalve/Disco.png"
       }
     ]
