@@ -302,6 +302,12 @@
         "name": "FIRE BAR",
         "alt": "FIRE BAR",
         "image": "../boiler/fireBar.png"
+      },
+      {
+        "id": 9,
+        "name": "CASTABLE ECOKAST",
+        "alt": "CASTABLE ECOKAST",
+        "image": "../boiler/castableEcoKast.png"
       }
     ]
   },
@@ -350,12 +356,6 @@
         "name": "DIGESTER PIN",
         "alt": "DIGESTER PIN",
         "image": "../digester/digesterPin.png"
-      },
-      {
-        "id": 6,
-        "name": "CASTABLE ECOKAST",
-        "alt": "CASTABLE ECOKAST",
-        "image": "../digester/castableEcoKast.png"
       }
     ]
   },

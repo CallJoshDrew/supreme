@@ -54,23 +54,13 @@ export default function MediaCard() {
         </motion.div>
       </Box>
       <Box sx={{ marginTop: { xs: "30px", sm: "40px" }, height: { xs: "230px", sm: "510px" }, boxShadow: "3" }}>
-        {/* <iframe
-          width="100%"
-          height="100%"
-          src="https://www.youtube.com/watch?v=tNJyix3816I"
-          
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe> */}
         <iframe
           width="100%"
           height="100%"
-          src="https://www.youtube.com/embed/tNJyix3816I"
+          src="https://www.youtube.com/embed/9NEcmSaJ7jc"
           title="YouTube video player"
           frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen></iframe>
       </Box>
     </Container>

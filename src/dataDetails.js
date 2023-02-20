@@ -1455,7 +1455,6 @@ export const products = [
         "Hardness": "90 D",
         "Adhesive Tensile Strength": "2,800 psi",
         "Compressive Strength": "15,000 psi",
-
       },
     ],
     applications: ["- Pumps", "- Deaerators", "- Heat Exchangers", "- Water Boxes", ],
@@ -1534,9 +1533,9 @@ export const products = [
   {
     id: 30,
     name: "CASTABLE ECOKAST",
-    brand: "DIGESTER",
+    brand: "BOILER",
     link: "CASTABLE%20ECOKAST",
-    image: "/digester/castableEcoKast.png",
+    image: "/boiler/castableEcoKast.png",
     description: "CASTABLE ECOKAST",
     features: [
       "Low Cost",
@@ -1561,6 +1560,6 @@ export const products = [
     applications: ["- Steam Boiler", "- Thermal Oil Boiler", "- Waste Oil Incinerator"],
     model: ["ECOKAST 14", "ECOKAST 15", "ECOKAST 16", "ECOKAST 17"],
     urlBack: "Categories",
-    productTab: "12",
+    productTab: "10",
   },
 ];
