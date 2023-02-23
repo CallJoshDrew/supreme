@@ -141,7 +141,7 @@ export default function Footer() {
                 viewport={{ once: false, amount: 0.9 }}
                 transition={{ staggerChildren: 0.5 }}>
                 <motion.div variants={phaseAnimate}>
-                  <Button variant="h6" sx={{ textTransform: 'lowercase', fontSize:"1.1rem",padding:"0",textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)" }} onClick={() => window.location = 'mailto:yourmail@domain.com'}>
+                  <Button variant="h6" sx={{ textTransform: 'lowercase', fontSize:"1.1rem",padding:"0",textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)" }} onClick={() => window.location = 'mailto:supremeevershine@hotmail.com'}>
                     supremeevershine@hotmail.com
                   </Button>
                 </motion.div>

@@ -80,7 +80,7 @@ export default function Brochure() {
                   marginRight: 2,
                   p: 1.5,
                   textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
-                }}>
+                }} onClick={() => window.location = 'mailto:supremeevershine@hotmail.com'}>
                 Email
               </Button>
               <Button
