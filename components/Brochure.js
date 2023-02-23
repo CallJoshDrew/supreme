@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Grid, Typography } from "@material-ui/core";
 import { Box } from "@mui/system";
-import eBrochure from "../public/eBrochure.png";
+import eBrochure from "../public/eBrochure2023.png";
 import { Button, responsiveFontSizes } from "@mui/material";
 import { createTheme, ThemeProvider } from "@material-ui/core/styles";
 
@@ -65,7 +65,7 @@ export default function Brochure() {
 
             <Grid item xs={12} sm={8} md={9}>
               <Typography component="div" align="left" variant="h6">
-                Our e-Brochure Product Catalogue 2022 is out! Find out more about our products and what we offer in our latest e-Brochure.
+                Our e-Brochure Product Catalogue 2023 is out! Find out more about our products and what we offer in our latest e-Brochure.
                 Simply click below button (either Email or Whatsapp) and send us your details and then we will send you the FREE copy of our
                 brochure in PDF format.
               </Typography>
