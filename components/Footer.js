@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography, responsiveFontSizes, Grid } from "@mui/material";
+import { Box, Typography, responsiveFontSizes, Grid, Button } from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
 import EmailIcon from "@mui/icons-material/Email";
@@ -107,9 +107,18 @@ export default function Footer() {
                 viewport={{ once: false, amount: 0.9 }}
                 transition={{ staggerChildren: 0.5 }}>
                 <motion.div variants={phaseAnimate}>
-                  <Typography variant="h6" sx={{ textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)" }}>
+                  <Button
+                    target="_blank"
+                    variant="h6"
+                    href="https://wa.me/60138830602?text=I%20want%20to%20know%20more%20about%20your%20company%20products%20and%20services!"
+                    sx={{
+                      fontSize: "1.1rem",
+                      color: "black",
+                      padding: "0",
+                      textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
+                    }}>
                     +6013-883-0602
-                  </Typography>
+                  </Button>
                 </motion.div>
               </motion.div>
             </Grid>

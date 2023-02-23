@@ -10,6 +10,7 @@ import Brochure from '../components/Brochure'
 import Footer from "../components/Footer";
 import Categories from "../components/Categories";
 import { useRouter } from "next/router";
+import Services from "../components/services";
 
 export default function Home() {
 	const router = useRouter();
@@ -44,6 +45,7 @@ export default function Home() {
 			<TrustedBy />
 			<FeaturedProducts urlBack={urlBack} productTab={productTab}/>
 			<Categories urlBack={urlBack} productTab={productTab}/>
+			{/* <Services /> */}
 			<Brochure />
 			<Footer />
 		{/* </div> */}
