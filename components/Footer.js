@@ -116,8 +116,21 @@ export default function Footer() {
                       color: "black",
                       padding: "0",
                       textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
+                      marginRight:"20px"
                     }}>
                     +6013-883-0602
+                  </Button>
+                  <Button
+                    target="_blank"
+                    variant="h6"
+                    href="https://wa.me/60138830602?text=Hi,%20I%20want%20to%20know%20more%20about%20your%20company%20products%20and%20services!"
+                    sx={{
+                      fontSize: "1.1rem",
+                      color: "black",
+                      padding: "0",
+                      textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)",
+                    }}>
+                    +6017-890-7785
                   </Button>
                 </motion.div>
               </motion.div>

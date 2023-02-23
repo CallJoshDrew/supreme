@@ -45,7 +45,7 @@ export default function Home() {
 			<TrustedBy />
 			<FeaturedProducts urlBack={urlBack} productTab={productTab}/>
 			<Categories urlBack={urlBack} productTab={productTab}/>
-			{/* <Services /> */}
+			<Services />
 			<Brochure />
 			<Footer />
 		{/* </div> */}
