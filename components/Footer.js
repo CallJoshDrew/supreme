@@ -110,7 +110,7 @@ export default function Footer() {
                   <Button
                     target="_blank"
                     variant="h6"
-                    href="https://wa.me/60138830602?text=I%20want%20to%20know%20more%20about%20your%20company%20products%20and%20services!"
+                    href="https://wa.me/60138830602?text=Hi,%20I%20want%20to%20know%20more%20about%20your%20company%20products%20and%20services!"
                     sx={{
                       fontSize: "1.1rem",
                       color: "black",
