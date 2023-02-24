@@ -85,10 +85,10 @@ export default function Services() {
         </motion.div>
       </Grid>
       <Grid container direction={{ xs: "column", sm: "row" }} marginBottom="50px">
-        <Grid item xs={12} sm={6} padding="10px" align="center">
-          <Card sx={{ maxWidth: 500 }}>
+        <Grid item xs={12} sm={6} padding="10px" align="right">
+          <Card sx={{ maxWidth: 400 }}>
             <CardActionArea>
-              <CardMedia component="img" height="470" image={machine.src} alt="Our Services" />
+              <CardMedia component="img" height="400" image={machine.src} alt="Our Services" />
               <motion.div
                 initial={"offscreen"}
                 whileInView={"onscreen"}
@@ -110,8 +110,8 @@ export default function Services() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} sm={6} padding="10px 5px" align="center">
-          <Card sx={{ maxWidth: 500 }}>
+        <Grid item xs={12} sm={6} padding="10px" align="left">
+          <Card sx={{ maxWidth: 400 }}>
             <CardActionArea>
               <CardMedia component="img" height="400" image={services.src} alt="Our Services" />
               <motion.div
@@ -122,6 +122,7 @@ export default function Services() {
                 <motion.div variants={textAnimate}>
                   <motion.div variants={animate}>
                     <CardContent align="left">
+                      <Typography variant="h6">Our System included:</Typography>
                       <Typography variant="body2">- SCADA System in Central Control Room</Typography>
                       <Typography variant="body2">- Loading Ramp Control System</Typography>
                       <Typography variant="body2">- Sterlizer Station Control System</Typography>
