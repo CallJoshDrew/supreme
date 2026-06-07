@@ -53,16 +53,21 @@ export default function MediaCard() {
           </Typography>
         </motion.div>
       </Box>
-      <Box sx={{ marginTop: { xs: "30px", sm: "40px" }, height: { xs: "230px", sm: "510px" }, boxShadow: "3" }}>
+      {/* <Box sx={{ marginTop: { xs: "30px", sm: "40px" }, height: { xs: "230px", sm: "510px" }, boxShadow: "3" }}>
         <iframe
           width="100%"
           height="100%"
-          src="https://www.youtube.com/embed/9NEcmSaJ7jc"
+          src="https://www.youtube-nocookie.com/embed/ZER6zKx7e84"
           title="YouTube video player"
           frameBorder="0"
+          referrerPolicy="strict-origin-when-cross-origin"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen></iframe>
-      </Box>
+        <div style={{ textAlign: "center", marginTop: 8 }}>
+          <a href="https://www.youtube.com/watch?v=ZER6zKx7e84" target="_blank" rel="noopener noreferrer">Open on YouTube</a>
+          <p style={{ color: "#666", marginTop: 4, fontSize: "0.9rem" }}>If the video is private or embedding is disabled, open it on YouTube.</p>
+        </div>
+      </Box> */}
     </Container>
   );
 }

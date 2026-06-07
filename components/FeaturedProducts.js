@@ -68,7 +68,7 @@ export default function FeaturedProducts({urlBack, productTab}) {
 
   return (
     <Container
-      id="Featured Products"
+      id="Featured-Products"
       maxWidth="md"
       sx={{
         display: "flex",

@@ -25,7 +25,7 @@ const NavBar = () => {
   };
 
   return (
-    <AppBar position="fixed" style={{ backgroundColor: "rgb(255,211,51)" }}>
+      <AppBar position="fixed" style={{ backgroundColor: "rgb(255,211,51)" }}>
       <Container maxWidth="md">
         <Toolbar disableGutters sx={{ display: "flex", justifyContent: "space-between" }}>
           <Box
@@ -61,7 +61,7 @@ const NavBar = () => {
             variant="h5"
             noWrap
             component="a"
-            href=""
+              href="/"
             sx={{
               mr: 2,
               order: 2,
@@ -84,7 +84,7 @@ const NavBar = () => {
             }}>
             {pages.map((page) => (
               <Button
-                href={`/#${page}`}
+                  href={`/#${page.replace(/\s+/g, "-")}`}
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{
@@ -109,7 +109,7 @@ const NavBar = () => {
             }}>
             <IconButton
               size="large"
-              aria-label="account of current user"
+                aria-label="open navigation menu"
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
@@ -141,7 +141,7 @@ const NavBar = () => {
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Button
-                    href={`#${page}`}
+                      href={`#${page.replace(/\s+/g, "-")}`}
                     sx={{
                       my: 0.5,
                       color: "black",

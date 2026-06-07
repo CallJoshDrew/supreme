@@ -37,7 +37,7 @@ export default function FeaturedCard(props) {
             alignItems: "center",
           }}>
           <Link href={`/products/` + category.name}>
-            <a className={styles.buttonLink}>{category.name}</a>
+            <p className={styles.buttonLink}>{category.name}</p>
           </Link>
         </Typography>
       </ThemeProvider>
