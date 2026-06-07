@@ -84,7 +84,7 @@ export default function Footer() {
               transition={{ staggerChildren: 0.5 }}>
               <motion.div variants={phaseAnimate}>
                 <Typography variant="h6" sx={{ textShadow: "2px 3px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)" }}>
-                  Jalan Lintas Sibuga, lintas indsutrial park, 90000 Sandakan, Sabah.
+                  Lot 60-62, Sibuga Industrial Centre, Jalan Lintas Sibuga, Mile 8, Labuk Road, 90000 Sandakan, Sabah.
                 </Typography>
               </motion.div>
             </motion.div>

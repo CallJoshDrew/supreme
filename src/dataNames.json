@@ -250,5 +250,29 @@
         "image": "../enmin/PermanentMagnet.png"
       }
     ]
+  },
+  {
+    "id": "8",
+    "brand": "HARDOX",
+    "categories": [
+      {
+        "id": 1,
+        "name": "HARDOX 450",
+        "alt": "HARDOX 450",
+        "image": "../hardox/hardox450.png"
+      },
+      {
+        "id": 2,
+        "name": "HARDOX HIACE 450",
+        "alt": "HARDOX HIACE 450",
+        "image": "../hardox/hardoxHiace450.png"
+      },
+      {
+        "id": 3,
+        "name": "HARDOX TUF500",
+        "alt": "HARDOX TUF500",
+        "image": "../hardox/hardoxTuF500.png"
+      }
+    ]
   }
 ]
